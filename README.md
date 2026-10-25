@@ -2,6 +2,8 @@
 
 **English** · [Deutsch](#deutsch)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A free, static briefing generator with 12 templates for content, sales, email, website relaunches and AI video. You pick a template, fill in what you already know, and export the brief as a fillable PDF, as Markdown, or print it. Empty fields stay input fields in the PDF, so the brief doubles as a questionnaire your agency or writer can complete on screen.
 
 Live: [thorsten-litzki.de/en/blog/creating-a-briefing-structure](https://thorsten-litzki.de/en/blog/creating-a-briefing-structure/#generator) (English) · [thorsten-litzki.de/briefing-aufbau-erstellen](https://thorsten-litzki.de/briefing-aufbau-erstellen/#generator) (German)
@@ -17,7 +19,9 @@ Live: [thorsten-litzki.de/en/blog/creating-a-briefing-structure](https://thorste
 
 Everything runs in the browser. No server, no API, no AI call, no cookies, no `localStorage`, no tracking. Input is lost when you reload the page (the page warns you first). The PDF library is loaded only when you click "Fillable PDF".
 
-The generator invents nothing: no estimated scores, no simulated numbers. It only structures what you enter.
+## Measured, not estimated
+
+The generator invents nothing: no estimated scores, no simulated numbers, no generated text. It only structures what you enter.
 
 ## Run it
 
@@ -63,13 +67,16 @@ js/briefing-pdf.js                 fillable PDF, loaded on demand
 js/vendor/                         pdf-lib 1.17.1, fontkit 1.1.1 (MIT)
 assets/data/                       templates DE and EN
 assets/fonts/pdf/                  Inter, EB Garamond (SIL OFL 1.1)
+.github/social-preview.png         social sharing image (1280 × 640)
 ```
 
 ## License
 
 MIT, see [LICENSE](LICENSE). Third-party components and their licenses: [NOTICE.md](NOTICE.md).
 
-Built by [Thorsten Litzki](https://thorsten-litzki.de/en/) · [Litzki Systems](https://litzki-systems.com/)
+## Author
+
+Thorsten Litzki · [Litzki Systems](https://litzki-systems.com)
 
 ---
 
@@ -78,6 +85,8 @@ Built by [Thorsten Litzki](https://thorsten-litzki.de/en/) · [Litzki Systems](h
 # Briefing-Generator
 
 [English](#briefing-generator) · **Deutsch**
+
+[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Ein kostenloser, statischer Briefing-Generator mit 12 Vorlagen für Content, Verkauf, E-Mail, Website-Relaunch und KI-Video. Sie wählen eine Vorlage, füllen aus, was Sie schon wissen, und exportieren das Briefing als ausfüllbares PDF, als Markdown oder drucken es. Leere Felder bleiben im PDF Eingabefelder: So wird das Briefing zum Fragebogen, den Agentur oder Texter am Bildschirm ergänzen.
 
@@ -94,7 +103,9 @@ Live: [thorsten-litzki.de/briefing-aufbau-erstellen](https://thorsten-litzki.de/
 
 Alles läuft im Browser. Kein Server, keine API, kein KI-Aufruf, keine Cookies, kein `localStorage`, kein Tracking. Beim Neuladen gehen die Eingaben verloren (die Seite warnt vorher). Die PDF-Bibliothek wird erst beim Klick auf „Ausfüllbares PDF“ geladen.
 
-Der Generator erfindet nichts: keine geschätzten Scores, keine simulierten Zahlen. Er strukturiert nur, was Sie eingeben.
+## Gemessen statt geschätzt
+
+Der Generator erfindet nichts: keine geschätzten Scores, keine simulierten Zahlen, keine generierten Texte. Er strukturiert nur, was Sie eingeben.
 
 ## Starten
 
@@ -126,4 +137,6 @@ Jede Vorlage hat `abschnitte` mit `felder`. Jedes Feld hat `label`, `frage` (was
 
 MIT, siehe [LICENSE](LICENSE). Fremdkomponenten und ihre Lizenzen: [NOTICE.md](NOTICE.md).
 
-Entwickelt von [Thorsten Litzki](https://thorsten-litzki.de/) · [Litzki Systems](https://litzki-systems.com/)
+## Autor
+
+Thorsten Litzki · [Litzki Systems](https://litzki-systems.com)
