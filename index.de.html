@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Briefing-Generator</title>
+  <meta name="description" content="Kostenloser Briefing-Generator mit 12 Vorlagen. Briefing im Browser ausfüllen und als ausfüllbares PDF, Markdown oder Druck exportieren. Kein Server, kein Tracking.">
+  <link rel="stylesheet" href="css/briefing-generator.css">
+</head>
+<body>
+<main class="page">
+  <header class="page__head">
+    <h1 class="page__title">Briefing-Generator</h1>
+    <span class="page__lang"><a href="index.html" hreflang="en" lang="en">English</a></span>
+  </header>
+
+  <div id="briefing-generator" class="bg-tool" data-base="./">
+    <div class="bg-tool__intro">
+      <p>Wählen Sie eine der 12 Vorlagen, füllen Sie aus, was Sie schon wissen, und speichern Sie das Ergebnis als ausfüllbares PDF. Leere Felder bleiben im PDF Eingabefelder: So wird aus der Vorlage ein Fragebogen, den Ihre Agentur am Bildschirm ergänzen kann.</p>
+      <p class="bg-tool__note">Alle Eingaben bleiben in Ihrem Browser. Nichts wird gespeichert oder übertragen. Beim Neuladen der Seite gehen sie verloren.</p>
+    </div>
+    <div class="bg-picker" data-bg="picker" aria-label="Vorlagen"></div>
+    <div class="bg-form" data-bg="form">
+      <noscript>Der Generator benötigt JavaScript.</noscript>
+    </div>
+    <div class="bg-actions">
+      <button type="button" class="btn btn--primary" data-bg="pdf">Ausfüllbares PDF</button>
+      <button type="button" class="btn btn--outline" data-bg="copy">Kopieren</button>
+      <button type="button" class="btn btn--outline" data-bg="download">Als Datei (.md)</button>
+      <button type="button" class="btn btn--outline" data-bg="print">Drucken</button>
+      <button type="button" class="btn btn--secondary" data-bg="reset">Zurücksetzen</button>
+      <div class="bg-actions__meta">
+        <span data-bg="status" aria-live="polite"></span>
+        <label><input type="checkbox" id="bg-nur-ausgefuellt"> Nur ausgefüllte Felder exportieren</label>
+        <span class="bg-notice" data-bg="notice" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </div>
+
+  <p class="page__foot">Open Source unter MIT-Lizenz · <a href="https://github.com/litzki-systems/briefing-generator">Quellcode auf GitHub</a> · Leitfaden: <a href="https://thorsten-litzki.de/briefing-aufbau-erstellen/">Briefing Aufbau erstellen</a> von Thorsten Litzki</p>
+</main>
+<script src="js/briefing-generator.js"></script>
+</body>
+</html>

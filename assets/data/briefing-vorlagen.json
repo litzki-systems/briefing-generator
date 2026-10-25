@@ -1,0 +1,2047 @@
+{
+  "version": "1.2.0",
+  "stand": "2026-10-25",
+  "sprache": "de",
+  "ansprache": "Sie",
+  "hinweis": "Einheitliche Vorlagen-Datenbasis für den Briefing Generator auf thorsten-litzki.de/briefing-aufbau-erstellen/. Zusammengeführt aus V2, V3, V4, tl-campus (Standard, Website, wp-optim), v5 (B2B) und der Coaching-Variante. Jedes Feld: label (Kurzname), frage (was ausgefüllt wird), beispiel (Hilfe, optional). Die Herkunft steht je Vorlage unter 'quellen'.",
+  "kategorien": [
+    {
+      "id": "content",
+      "name": "Content & SEO"
+    },
+    {
+      "id": "verkauf",
+      "name": "Verkauf & Conversion"
+    },
+    {
+      "id": "email",
+      "name": "E-Mail"
+    },
+    {
+      "id": "projekt",
+      "name": "Projekte"
+    },
+    {
+      "id": "medien",
+      "name": "Video & KI-Medien"
+    }
+  ],
+  "bausteine": {
+    "ki-sichtbarkeit": {
+      "id": "ki-sichtbarkeit",
+      "titel": "KI-Suche & AI Overviews",
+      "felder": [
+        {
+          "id": "direkte-antwort",
+          "label": "Direkte Antwort",
+          "frage": "Welche Kernfrage beantwortet der Text, und wie lautet die Antwort in ein bis zwei Sätzen? Diese Antwort gehört an den Anfang des passenden Abschnitts.",
+          "beispiel": "Frage: „Wie lang sollte ein Briefing sein?“ – Antwort: „So kurz wie möglich, so lang wie nötig: meist ein bis zwei Seiten.“"
+        },
+        {
+          "id": "zitierfaehige-fakten",
+          "label": "Zitierfähige Fakten",
+          "frage": "Welche eigenen Zahlen, Daten, Studien oder Erfahrungswerte machen den Text für Suchmaschinen und KI-Assistenten zitierfähig? Mit Quelle.",
+          "beispiel": "Eigene Auswertung von 200 Projekten, Kennzahlen aus der Search Console, Studie mit Link"
+        },
+        {
+          "id": "begriffe",
+          "label": "Begriffe & Entitäten",
+          "frage": "Welche Fachbegriffe, Marken, Produkte und Personen sollen eindeutig benannt und kurz erklärt werden?",
+          "beispiel": "Content-Briefing, Suchintention, AI Overviews"
+        },
+        {
+          "id": "fragen-abdeckung",
+          "label": "Fragen-Abdeckung",
+          "frage": "Welche Nutzerfragen (z. B. aus „Ähnliche Fragen“ bei Google oder aus einer Content-Analyse) soll der Text ausdrücklich beantworten?",
+          "beispiel": "Was ist ein Briefing? · Was gehört hinein? · Welche Fehler sollte man vermeiden?"
+        },
+        {
+          "id": "expertise",
+          "label": "E-E-A-T: Erfahrung & Expertise",
+          "frage": "Wie werden Erfahrung, Expertise, Autorität und Vertrauenswürdigkeit im Text sichtbar? Wer steht als Autor dahinter?",
+          "beispiel": "Eigene Praxisbeispiele, Fallstudien, Expertenzitate, verlässliche Quellen, Autorenbox mit Profil-Link"
+        }
+      ]
+    },
+    "organisation": {
+      "id": "organisation",
+      "titel": "Organisatorisches & Referenzen",
+      "felder": [
+        {
+          "id": "deadline",
+          "label": "Deadline",
+          "frage": "Bis wann wird der Entwurf benötigt, bis wann die finale Fassung?",
+          "beispiel": "Entwurf TT.MM.JJJJ, Freigabe TT.MM.JJJJ"
+        },
+        {
+          "id": "ansprechpartner",
+          "label": "Ansprechpartner",
+          "frage": "Wer beantwortet Rückfragen, und auf welchem Weg?"
+        },
+        {
+          "id": "rueckfragen",
+          "label": "Klärung offener Fragen",
+          "frage": "Wie werden offene Fragen gesammelt und geklärt?",
+          "beispiel": "Ein Kick-off-Termin, ein gemeinsames Dokument mit Kommentaren"
+        },
+        {
+          "id": "freigabe",
+          "label": "Korrektur & Freigabe",
+          "frage": "Wie viele Korrekturschleifen sind vorgesehen, und wer gibt final frei?"
+        },
+        {
+          "id": "beteiligte",
+          "label": "Beteiligte",
+          "frage": "Sind alle Projektbeteiligten informiert? Wer muss das Briefing noch sehen?"
+        },
+        {
+          "id": "referenzen",
+          "label": "Beispiele & Referenzen",
+          "frage": "Gibt es gute Beispiele für den gewünschten Stil oder Inhalt, interne Dokumente oder Ressourcen?"
+        },
+        {
+          "id": "rebriefing",
+          "label": "Rebriefing",
+          "frage": "Wurden alle Ziele und Anforderungen richtig verstanden? Gibt es offene Punkte? Passt die vorgeschlagene Herangehensweise für alle Beteiligten?",
+          "beispiel": "Der Auftragnehmer fasst das Briefing in eigenen Worten zusammen und schickt es zurück."
+        }
+      ]
+    }
+  },
+  "vorlagen": [
+    {
+      "id": "content-briefing",
+      "name": "Content-Briefing (Blogartikel)",
+      "kategorie": "content",
+      "icon": "article",
+      "titel": "Briefing: Blogartikel „[Thema]“",
+      "beschreibung": "Für Blogartikel, Ratgeber und Landingpages mit Informationsabsicht. Die meistgenutzte Vorlage.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "blog-briefing.txt",
+        "V2-V4",
+        "Leitfaden-PDF (14 Elemente)"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Ziel & KPIs",
+          "felder": [
+            {
+              "id": "primaerziel",
+              "label": "Primärziel",
+              "frage": "Was soll der Artikel für Sie erreichen?",
+              "beispiel": "Traffic auf die Website bringen, Vertrauen aufbauen, Newsletter-Abonnenten oder Leads gewinnen, Thought Leadership"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Rankings, Verweildauer, Kommentare, neue Leads"
+            },
+            {
+              "id": "kontext",
+              "label": "Kontext",
+              "frage": "In welchem Zusammenhang steht der Content?",
+              "beispiel": "Teil einer Kampagne, Teil eines Themenclusters, eigenständiger Artikel"
+            }
+          ]
+        },
+        {
+          "id": "zielgruppe",
+          "titel": "Zielgruppe & Kernbotschaft",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Leser-Persona",
+              "frage": "Für wen schreiben Sie? Welches Problem oder Interesse hat diese Person gerade?",
+              "beispiel": "Marketingleiterin eines Mittelständlers, die zum ersten Mal eine Agentur beauftragt"
+            },
+            {
+              "id": "sprache",
+              "label": "Sprache der Zielgruppe",
+              "frage": "Welche Begriffe benutzt die Zielgruppe selbst? Wie viel Fachsprache verträgt sie?"
+            },
+            {
+              "id": "pain-points",
+              "label": "Pain Points",
+              "frage": "Welche Probleme hat die Zielgruppe in Bezug auf das Thema?"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Kernbotschaft",
+              "frage": "Was ist die eine Sache, die der Leser nach dem Lesen wissen, verstanden haben oder fühlen soll?"
+            },
+            {
+              "id": "winkel",
+              "label": "Content-Winkel",
+              "frage": "Aus welcher Perspektive wird das Thema beleuchtet?",
+              "beispiel": "Einsteigerleitfaden, Expertenmeinung, Fallstudie"
+            }
+          ]
+        },
+        {
+          "id": "format",
+          "titel": "Content-Typ, Format & Tonalität",
+          "felder": [
+            {
+              "id": "content-typ",
+              "label": "Content-Typ",
+              "frage": "Welche Art von Content entsteht?",
+              "beispiel": "Blogartikel, Ratgeber, Whitepaper, Landingpage, Social-Media-Beitrag"
+            },
+            {
+              "id": "formatierung",
+              "label": "Formatierung",
+              "frage": "Gibt es Vorgaben zur Formatierung?",
+              "beispiel": "Viele Zwischenüberschriften, kurze Absätze, Listen, Tabellen, Infografiken"
+            },
+            {
+              "id": "wortanzahl",
+              "label": "Wortanzahl / Umfang",
+              "frage": "Wie lang soll der Text ungefähr werden? Eine realistische Angabe hilft bei der Planung.",
+              "beispiel": "Ein umfassender Ratgeber hat oft 1.800 Wörter und mehr – ohne Füllstoff. Orientierung gibt die Länge der Top-Ergebnisse."
+            },
+            {
+              "id": "tonalitaet",
+              "label": "Tonalität & Stil",
+              "frage": "Wie soll der Text klingen?",
+              "beispiel": "Professionell, locker, inspirierend, technisch"
+            },
+            {
+              "id": "styleguide",
+              "label": "Markenstimme & Styleguide",
+              "frage": "Gibt es einen Styleguide? Siezen oder duzen? Gendern, und wenn ja, wie?"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & Keywords",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Hauptkeyword",
+              "frage": "Für welchen Suchbegriff soll der Artikel gefunden werden?",
+              "beispiel": "„briefing erstellen“"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Sekundäre Keywords",
+              "frage": "Welche drei bis fünf verwandten Begriffe gehören dazu?",
+              "beispiel": "„briefing vorlage“, „content briefing“, „briefing schreiben“"
+            },
+            {
+              "id": "platzierung",
+              "label": "Keyword-Platzierung",
+              "frage": "Wo soll das Hauptkeyword stehen? In der Regel in Title, H1, mindestens einer H2 und im ersten Absatz – natürlich, ohne Keyword-Stuffing."
+            },
+            {
+              "id": "suchintention",
+              "label": "Suchintention",
+              "frage": "Welche konkrete Frage will der Suchende beantwortet haben?"
+            },
+            {
+              "id": "meta-title",
+              "label": "Meta-Titel",
+              "frage": "Vorschlag oder Vorgabe für den Seitentitel?",
+              "beispiel": "Maximal etwa 60 Zeichen, Keyword vorn"
+            },
+            {
+              "id": "meta-description",
+              "label": "Meta-Beschreibung",
+              "frage": "Vorschlag oder Vorgabe für die Meta-Beschreibung?",
+              "beispiel": "Maximal etwa 160 Zeichen, Keyword enthalten, klickstark"
+            }
+          ]
+        },
+        {
+          "id": "wettbewerb",
+          "titel": "Wettbewerbsanalyse",
+          "felder": [
+            {
+              "id": "top-ergebnisse",
+              "label": "Wer rankt bereits?",
+              "frage": "Welche Seiten stehen für das Hauptkeyword auf den ersten Plätzen?"
+            },
+            {
+              "id": "content-gaps",
+              "label": "Content Gaps",
+              "frage": "Was machen die Wettbewerber gut, was fehlt ihnen, und was können Sie besser machen?"
+            }
+          ]
+        },
+        {
+          "id": "gliederung",
+          "titel": "Gliederung & Inhalt",
+          "felder": [
+            {
+              "id": "angle",
+              "label": "Einzigartiger Blickwinkel (Angle)",
+              "frage": "Was macht Ihren Artikel besser oder anders als andere Artikel zum selben Thema?"
+            },
+            {
+              "id": "gliederung",
+              "label": "Gliederung (Vorschlag)",
+              "frage": "Wie ist der Artikel aufgebaut?",
+              "beispiel": "H1: Keyword-optimierte, ansprechende Überschrift, z. B. „5 Fehler, die Sie beim Briefing teuer zu stehen kommen“ · Einleitung: Hook, der das Problem der Zielgruppe aufgreift · H2: Fehler 1 … · H2: Fehler 2 … · H2: Fehler 3 … · H2: FAQ – Häufig gestellte Fragen · Fazit: Zusammenfassung und klarer Call-to-Action"
+            },
+            {
+              "id": "pflichtelemente",
+              "label": "Pflichtelemente",
+              "frage": "Gibt es Elemente oder Fragen, die zwingend vorkommen müssen?"
+            },
+            {
+              "id": "elemente",
+              "label": "Wichtige Elemente",
+              "frage": "Welche Elemente gehören in den Text?",
+              "beispiel": "Praxisbeispiele, Grafiken, Expertenzitate, interne Links"
+            },
+            {
+              "id": "faq",
+              "label": "FAQ-Abschnitt",
+              "frage": "Soll ein FAQ-Abschnitt häufige Nutzerfragen direkt beantworten? Wenn ja, welche Fragen?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "links",
+          "titel": "Interne & externe Links",
+          "felder": [
+            {
+              "id": "intern",
+              "label": "Interne Links",
+              "frage": "Welche eigenen Seiten sollen verlinkt werden? Wichtig für SEO und Nutzerführung."
+            },
+            {
+              "id": "extern",
+              "label": "Externe Links",
+              "frage": "Gibt es Vorgaben für externe Links, etwa zu Studien oder vertrauenswürdigen Quellen?"
+            }
+          ]
+        },
+        {
+          "id": "cta",
+          "titel": "Call-to-Action",
+          "felder": [
+            {
+              "id": "naechster-schritt",
+              "label": "Nächster Schritt",
+              "frage": "Was soll der Leser tun, nachdem er den Artikel gelesen hat?",
+              "beispiel": "„Laden Sie die Checkliste herunter“, „Buchen Sie ein kostenloses Erstgespräch“"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "corporate-blog-whitepaper",
+      "name": "Corporate Blog / Whitepaper",
+      "kategorie": "content",
+      "icon": "report",
+      "titel": "Briefing: Content Piece zu „[Thema]“",
+      "beschreibung": "Für Fachbeiträge, Whitepaper und E-Books mit B2B-Zielgruppe.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Zielsetzung & SEO",
+          "felder": [
+            {
+              "id": "content-typ",
+              "label": "Content-Typ",
+              "frage": "Welches Format entsteht?",
+              "beispiel": "Blogbeitrag, Whitepaper, E-Book, Leitfaden"
+            },
+            {
+              "id": "suchintention",
+              "label": "Suchintention",
+              "frage": "Welche Frage oder Aufgabe hat der Leser, wenn er auf den Inhalt stößt?"
+            },
+            {
+              "id": "hauptkeyword",
+              "label": "Haupt-Keyword",
+              "frage": "Für welchen Suchbegriff soll der Inhalt gefunden werden?",
+              "beispiel": "„predictive maintenance lösungen“"
+            }
+          ]
+        },
+        {
+          "id": "ansprache",
+          "titel": "Zielgruppen-Ansprache",
+          "felder": [
+            {
+              "id": "expertise-level",
+              "label": "Wissensstand der Leser",
+              "frage": "Wie viel Vorwissen bringen die Leser mit?",
+              "beispiel": "Einsteiger, Fachanwender, Entscheider auf C-Level"
+            },
+            {
+              "id": "tonalitaet",
+              "label": "Tonalität",
+              "frage": "Wie soll der Text klingen?",
+              "beispiel": "Sachlich-dokumentarisch, beratend, Executive-Summary-Stil"
+            }
+          ]
+        },
+        {
+          "id": "struktur",
+          "titel": "Inhaltsstruktur",
+          "felder": [
+            {
+              "id": "h1",
+              "label": "H1-Überschrift",
+              "frage": "Wie lautet die Hauptüberschrift?"
+            },
+            {
+              "id": "executive-summary",
+              "label": "Executive Summary",
+              "frage": "Was sind die wichtigsten Aussagen in drei bis fünf Sätzen, für Leser mit wenig Zeit?"
+            },
+            {
+              "id": "gliederung",
+              "label": "H2/H3-Gliederung",
+              "frage": "Welche Kapitel und Unterkapitel hat der Inhalt?"
+            },
+            {
+              "id": "daten",
+              "label": "Daten & Fakten",
+              "frage": "Welche Zahlen, Studien oder eigenen Daten stützen die Argumentation?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "conversion",
+          "titel": "Conversion-Elemente",
+          "felder": [
+            {
+              "id": "naechster-schritt",
+              "label": "Nächster logischer Schritt",
+              "frage": "Was soll der Leser danach tun?",
+              "beispiel": "Demo anfragen, Whitepaper-Download, Fallstudie lesen"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "gastbeitrag",
+      "name": "Gastbeitrag / Bezahlter Artikel",
+      "kategorie": "content",
+      "icon": "link",
+      "titel": "Briefing: Gastbeitrag für „[Publisher]“",
+      "beschreibung": "Für bezahlte Artikel und Gastbeiträge auf fremden Portalen, etwa im Rahmen von Linkaufbau.",
+      "quellen": [
+        "coaching",
+        "V2-V4",
+        "tl-campus"
+      ],
+      "abschnitte": [
+        {
+          "id": "publisher",
+          "titel": "Administrative & Publisher-Vorgaben",
+          "felder": [
+            {
+              "id": "portal",
+              "label": "Publisher / Portal",
+              "frage": "Auf welcher Website oder in welchem Magazin erscheint der Artikel?",
+              "beispiel": "Branchenmagazin, regionales Nachrichtenportal"
+            },
+            {
+              "id": "qualitaet",
+              "label": "Qualitätsstufe",
+              "frage": "Welche Qualitätsstufe ist gebucht?",
+              "beispiel": "Expertenbeitrag, Standard"
+            },
+            {
+              "id": "umfang",
+              "label": "Zeichenanzahl",
+              "frage": "Wie lang soll der Artikel sein?",
+              "beispiel": "3.000–3.500 Zeichen"
+            },
+            {
+              "id": "werbecharakter",
+              "label": "Werbecharakter",
+              "frage": "Wie werblich darf der Artikel sein?",
+              "beispiel": "Erlaubt / dezent / verboten"
+            },
+            {
+              "id": "laufzeit",
+              "label": "Laufzeit",
+              "frage": "Wie lange bleibt der Artikel online?",
+              "beispiel": "12 Monate unverändert, dauerhaft"
+            }
+          ]
+        },
+        {
+          "id": "ziel",
+          "titel": "Ziel & KPIs",
+          "felder": [
+            {
+              "id": "primaerziel",
+              "label": "Primärziel",
+              "frage": "Was soll der Artikel für Sie erreichen?",
+              "beispiel": "Qualifizierten Traffic auf Ihre Website leiten, Sie als Experten positionieren"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Klicks auf den Link, neue Newsletter-Abonnenten"
+            }
+          ]
+        },
+        {
+          "id": "links",
+          "titel": "SEO & Link-Vorgaben",
+          "felder": [
+            {
+              "id": "zielseite",
+              "label": "Link – Zielseite (URL)",
+              "frage": "Auf welche Seite Ihrer Website soll verlinkt werden?",
+              "beispiel": "Ein Ratgeberartikel oder eine Leistungsseite"
+            },
+            {
+              "id": "ankertext",
+              "label": "Link – Ankertext",
+              "frage": "Mit welchem Text wird verlinkt?",
+              "beispiel": "„Content-Briefing erstellen“"
+            },
+            {
+              "id": "dofollow",
+              "label": "Dofollow erlaubt",
+              "frage": "Darf der Link dofollow sein?",
+              "beispiel": "Ja / Nein"
+            },
+            {
+              "id": "externe-links",
+              "label": "Weitere externe Links",
+              "frage": "Sind Links zu anderen, nicht konkurrierenden Quellen (z. B. Studien) erlaubt oder erwünscht?"
+            }
+          ]
+        },
+        {
+          "id": "thema",
+          "titel": "Thema, Keywords & Zielgruppe",
+          "felder": [
+            {
+              "id": "thema",
+              "label": "Thema",
+              "frage": "Worum geht es im Artikel?",
+              "beispiel": "„Wie Unternehmen ihre Nische finden und online sichtbar werden“"
+            },
+            {
+              "id": "hauptkeyword",
+              "label": "Hauptkeyword",
+              "frage": "Für welchen Suchbegriff soll der Artikel gefunden werden?"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Sekundäre Keywords",
+              "frage": "Welche verwandten Begriffe gehören dazu?"
+            },
+            {
+              "id": "suchintention",
+              "label": "Suchintention",
+              "frage": "Welche konkrete Frage des Lesers beantwortet der Artikel?"
+            }
+          ]
+        },
+        {
+          "id": "inhalt",
+          "titel": "Inhalt & Gliederung",
+          "felder": [
+            {
+              "id": "quellen",
+              "label": "Sachliche Korrektheit",
+              "frage": "Gibt es Quellen oder Fakten, die verwendet werden sollen?"
+            },
+            {
+              "id": "gliederung",
+              "label": "Gliederung (Vorschlag)",
+              "frage": "Wie ist der Artikel aufgebaut?",
+              "beispiel": "H1: Keyword-optimierte Überschrift · Einleitung: Hook mit dem Problem der Zielgruppe · H2: Warum das Thema entscheidend ist · H2: Drei Schritte zur Lösung · H2: Häufige Fehler · H2: FAQ · Fazit: Zusammenfassung und Übergang zum Link"
+            },
+            {
+              "id": "elemente",
+              "label": "Wichtige Elemente",
+              "frage": "Welche Elemente gehören in den Text?",
+              "beispiel": "Praxisbeispiele, Grafiken, Zitate"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "medien",
+          "titel": "Visuelle Medien & Formatierung",
+          "felder": [
+            {
+              "id": "hauptfoto",
+              "label": "Hauptfoto",
+              "frage": "Wer liefert das Hauptfoto?",
+              "beispiel": "Auftraggeber / Autor"
+            },
+            {
+              "id": "weitere-fotos",
+              "label": "Zusätzliche Fotos",
+              "frage": "Wie viele zusätzliche Fotos sind erlaubt oder erwünscht?",
+              "beispiel": "1–5"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "fachartikel",
+      "name": "Fachartikel / Advertorial",
+      "kategorie": "content",
+      "icon": "newspaper",
+      "titel": "Briefing: Fachartikel für „[Publikation]“",
+      "beschreibung": "Für Fachartikel in Branchenmedien mit dem Ziel Thought Leadership.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "publikation",
+          "titel": "Publikations-Details",
+          "felder": [
+            {
+              "id": "medium",
+              "label": "Medium",
+              "frage": "In welcher Publikation oder auf welchem Portal erscheint der Artikel?"
+            },
+            {
+              "id": "leserschaft",
+              "label": "Zielgruppe des Mediums",
+              "frage": "Wer liest das Medium, und was erwartet diese Leserschaft?"
+            },
+            {
+              "id": "format",
+              "label": "Formatvorgaben",
+              "frage": "Welche Vorgaben macht die Redaktion?",
+              "beispiel": "Länge, Bildformate, Autorenzeile, Abgabetermin"
+            }
+          ]
+        },
+        {
+          "id": "ziel",
+          "titel": "Thought-Leadership-Ziel",
+          "felder": [
+            {
+              "id": "positionierung",
+              "label": "Positionierung",
+              "frage": "Als was wollen Sie mit diesem Artikel wahrgenommen werden?"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Kernbotschaft",
+              "frage": "Welche eine Aussage soll beim Leser hängen bleiben?"
+            }
+          ]
+        },
+        {
+          "id": "ausrichtung",
+          "titel": "Inhaltliche Ausrichtung",
+          "felder": [
+            {
+              "id": "headline",
+              "label": "Thema / Headline-Idee",
+              "frage": "Wie lautet das Thema, und welche Überschrift ist denkbar?"
+            },
+            {
+              "id": "tiefgang",
+              "label": "Technischer Tiefgang",
+              "frage": "Wie fachlich darf oder muss der Artikel werden?"
+            },
+            {
+              "id": "aufhaenger",
+              "label": "Aktueller Aufhänger",
+              "frage": "Welches aktuelle Ereignis, Gesetz oder Marktthema macht den Artikel jetzt relevant?"
+            }
+          ]
+        },
+        {
+          "id": "struktur",
+          "titel": "Struktur & Argumentation",
+          "felder": [
+            {
+              "id": "intro",
+              "label": "Einleitung",
+              "frage": "Wie steigt der Artikel ein?"
+            },
+            {
+              "id": "problem",
+              "label": "Hauptteil: Problem",
+              "frage": "Welches Problem wird beschrieben, und warum ist es relevant?"
+            },
+            {
+              "id": "loesung",
+              "label": "Hauptteil: Lösung",
+              "frage": "Welche Lösung oder Herangehensweise stellen Sie vor?"
+            },
+            {
+              "id": "fazit",
+              "label": "Fazit / Ausblick",
+              "frage": "Mit welcher Einordnung oder Prognose endet der Artikel?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "assets",
+          "titel": "Assets & Links",
+          "felder": [
+            {
+              "id": "grafiken",
+              "label": "Grafiken",
+              "frage": "Welche Grafiken, Diagramme oder Fotos werden mitgeliefert?"
+            },
+            {
+              "id": "backlinks",
+              "label": "Links",
+              "frage": "Welche Links sind vorgesehen und von der Redaktion erlaubt?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "sales-page",
+      "name": "Sales Page / Landingpage",
+      "kategorie": "verkauf",
+      "icon": "sales",
+      "titel": "Briefing: Sales Page für „[Produkt/Angebot]“",
+      "beschreibung": "Für Verkaufsseiten und Landingpages mit klarer Kaufabsicht. Erzählender Aufbau vom Problem zur Lösung.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "V2-V4"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Ziel & KPIs",
+          "felder": [
+            {
+              "id": "verkaufsziel",
+              "label": "Primäres Verkaufsziel",
+              "frage": "Was soll diese Seite erreichen?",
+              "beispiel": "100 Verkäufe pro Monat, 50 Demo-Buchungen, 5 Anfragen für Beratungsprojekte"
+            },
+            {
+              "id": "kpis",
+              "label": "Wichtige KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Conversion-Rate, durchschnittlicher Bestellwert, Anzahl gebuchter Erstgespräche"
+            }
+          ]
+        },
+        {
+          "id": "angebot",
+          "titel": "Produkt & Angebot",
+          "felder": [
+            {
+              "id": "produkt",
+              "label": "Produkt",
+              "frage": "Was genau wird verkauft?"
+            },
+            {
+              "id": "deal",
+              "label": "Angebot",
+              "frage": "Welche Konditionen gibt es?",
+              "beispiel": "Preis, Boni, Limitierung"
+            }
+          ]
+        },
+        {
+          "id": "zielkunde",
+          "titel": "Zielkunde & seine Transformation",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Idealer Kunde (Persona)",
+              "frage": "Wer ist Ihr Wunschkunde? Demografie, Wünsche, Ängste.",
+              "beispiel": "„Geschäftsführer eines Handwerksbetriebs, 52, will endlich planbar neue Aufträge über die Website gewinnen.“"
+            },
+            {
+              "id": "vorher",
+              "label": "Problem (Vorher-Zustand)",
+              "frage": "Welches dringende Problem, welche Frustration oder Unsicherheit hat Ihr Kunde?",
+              "beispiel": "„Ich weiß nicht, wo ich anfangen soll, um online Kunden zu gewinnen.“"
+            },
+            {
+              "id": "nachher",
+              "label": "Vision (Nachher-Zustand)",
+              "frage": "Welches Ergebnis und welche Veränderung versprechen Sie? Wie fühlt sich der Kunde nach der Zusammenarbeit?",
+              "beispiel": "„Ein voller Auftragskalender, planbare Anfragen, finanzielle Sicherheit.“"
+            },
+            {
+              "id": "usp",
+              "label": "Alleinstellungsmerkmal (USP)",
+              "frage": "Warum sollte man bei Ihnen kaufen und nicht woanders?"
+            }
+          ]
+        },
+        {
+          "id": "hook",
+          "titel": "Einleitung: Problem & Hook",
+          "felder": [
+            {
+              "id": "hook",
+              "label": "Hook (Attention)",
+              "frage": "Mit welcher nachvollziehbaren Szene oder Frage holen Sie den Besucher in den ersten drei Sekunden ab?",
+              "beispiel": "„Kennen Sie das? Sie haben enorme Expertise, aber Ihre Website ist nur eine digitale Visitenkarte.“"
+            },
+            {
+              "id": "verschaerfung",
+              "label": "Problem-Verschärfung",
+              "frage": "Welche typischen, frustrierenden Erfahrungen zählen Sie auf, um zu zeigen: „Ich verstehe Sie“?",
+              "beispiel": "„Sie posten regelmäßig, aber es kommen Likes statt Anfragen …“"
+            }
+          ]
+        },
+        {
+          "id": "idee",
+          "titel": "Die große Idee & der Aha-Moment",
+          "felder": [
+            {
+              "id": "kontraer",
+              "label": "Konträre Perspektive",
+              "frage": "Welchen typischen Denkfehler Ihrer Branche decken Sie auf?",
+              "beispiel": "„Mehr Content ist nicht die Lösung. Es geht um den richtigen Content.“"
+            },
+            {
+              "id": "aha",
+              "label": "Ihre Entdeckung",
+              "frage": "Welche Geschichte oder Erkenntnis führt zu Ihrer Methode?",
+              "beispiel": "„Als ich selbst anfing, merkte ich, dass …“"
+            }
+          ]
+        },
+        {
+          "id": "loesung",
+          "titel": "Lösung: Angebotsvorstellung",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Name des Angebots",
+              "frage": "Wie heißt Ihre Lösung?",
+              "beispiel": "„Das Sichtbarkeits-Programm“"
+            },
+            {
+              "id": "modul-1",
+              "label": "Modul/Paket 1",
+              "frage": "Name und Beschreibung",
+              "beispiel": "Modul 1: Klare Positionierung finden"
+            },
+            {
+              "id": "modul-2",
+              "label": "Modul/Paket 2",
+              "frage": "Name und Beschreibung",
+              "beispiel": "Modul 2: Die Website als Kundenmagnet"
+            },
+            {
+              "id": "modul-3",
+              "label": "Modul/Paket 3",
+              "frage": "Name und Beschreibung",
+              "beispiel": "Modul 3: Content, der verkauft"
+            }
+          ]
+        },
+        {
+          "id": "social-proof",
+          "titel": "Social Proof",
+          "felder": [
+            {
+              "id": "testimonial-1",
+              "label": "Kundenstimme 1",
+              "frage": "Zitat eines Kunden, das ein konkretes Ergebnis oder Gefühl hervorhebt.",
+              "beispiel": "„Nach drei Monaten hatten wir einen klaren Fahrplan und die ersten drei Großaufträge.“"
+            },
+            {
+              "id": "testimonial-2",
+              "label": "Kundenstimme 2",
+              "frage": "Zitat eines anderen Kunden, das einen anderen Aspekt beleuchtet.",
+              "beispiel": "Die persönliche Betreuung, die Geschwindigkeit, die Community"
+            },
+            {
+              "id": "belege",
+              "label": "Weitere Belege",
+              "frage": "Welche Fallstudien, Kundenlogos, Zertifikate oder Zahlen gibt es?"
+            }
+          ]
+        },
+        {
+          "id": "methode",
+          "titel": "Methode im Detail",
+          "felder": [
+            {
+              "id": "merkmal-1",
+              "label": "Merkmal 1",
+              "frage": "Was ist der konkrete Vorteil für den Kunden? Vorher → Nachher.",
+              "beispiel": "Wöchentliche Live-Calls: allein kämpfen → direkter Draht und klares Feedback"
+            },
+            {
+              "id": "merkmal-2",
+              "label": "Merkmal 2",
+              "frage": "Was ist der konkrete Vorteil für den Kunden? Vorher → Nachher.",
+              "beispiel": "Vorlagen & Checklisten: Überforderung → Schritt-für-Schritt-Umsetzung"
+            },
+            {
+              "id": "merkmal-3",
+              "label": "Merkmal 3",
+              "frage": "Was ist der konkrete Vorteil für den Kunden? Vorher → Nachher.",
+              "beispiel": "Austausch-Gruppe: Isolation → Austausch mit Gleichgesinnten"
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "titel": "Einwände & FAQ",
+          "felder": [
+            {
+              "id": "einwaende",
+              "label": "FAQ-Abschnitt",
+              "frage": "Welche Einwände oder Fragen beantworten Sie vorab in einem FAQ-Bereich?"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & Keywords",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Hauptkeyword",
+              "frage": "Welches Keyword hat die höchste Kaufabsicht?",
+              "beispiel": "„[Produkt] kaufen“"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Sekundäre Keywords",
+              "frage": "Welche verwandten Begriffe gehören dazu?",
+              "beispiel": "Markenname, Produktvarianten, „Erfahrungen“, „Test“"
+            },
+            {
+              "id": "suchintention",
+              "label": "Suchintention",
+              "frage": "Der Nutzer will meist kaufen oder vergleicht Anbieter. Wie stellt die Seite sicher, dass sie auf den Abschluss hinführt?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "abschluss",
+          "titel": "Abschluss & Call-to-Action",
+          "felder": [
+            {
+              "id": "wertversprechen",
+              "label": "Wertversprechen",
+              "frage": "Welchen Kernnutzen wiederholen Sie am Ende?",
+              "beispiel": "„Der schnellste Weg zu mehr Sichtbarkeit und zahlenden Kunden.“"
+            },
+            {
+              "id": "cta",
+              "label": "Finaler Call-to-Action",
+              "frage": "Wie lautet die klare Handlungsaufforderung?",
+              "beispiel": "„Buchen Sie jetzt Ihr kostenloses Strategiegespräch.“"
+            }
+          ]
+        },
+        {
+          "id": "design-tracking",
+          "titel": "Design & Tracking",
+          "felder": [
+            {
+              "id": "visuell",
+              "label": "Visuelle Anforderungen",
+              "frage": "Welche Produktbilder, Videos oder Stilvorgaben gibt es?"
+            },
+            {
+              "id": "tracking",
+              "label": "Tracking",
+              "frage": "Welche Conversions müssen gemessen werden?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "solution-page",
+      "name": "B2B Solution Page",
+      "kategorie": "verkauf",
+      "icon": "building",
+      "titel": "Briefing: B2B Solution Page für „[Produkt/Service]“",
+      "beschreibung": "Für Lösungsseiten im B2B-Vertrieb mit mehreren Entscheidern (Buying Center).",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Business-Ziele & Erfolgskennzahlen",
+          "felder": [
+            {
+              "id": "konversionsziel",
+              "label": "Primäres Konversionsziel",
+              "frage": "Welche Aktion soll der Besucher ausführen?",
+              "beispiel": "Demo anfragen, Rückruf vereinbaren, Whitepaper laden"
+            },
+            {
+              "id": "kpis",
+              "label": "Messbare KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Qualifizierte Leads pro Monat, Pipeline-Wert"
+            }
+          ]
+        },
+        {
+          "id": "buying-center",
+          "titel": "Buying Center & Zielgruppen",
+          "felder": [
+            {
+              "id": "wirtschaftlich",
+              "label": "Wirtschaftliche Entscheider",
+              "frage": "Wer gibt das Budget frei, und was ist dieser Person wichtig?",
+              "beispiel": "Geschäftsführung, Einkauf: Kosten, Risiko, ROI"
+            },
+            {
+              "id": "technisch",
+              "label": "Technische Entscheider",
+              "frage": "Wer prüft die Lösung fachlich, und worauf achtet diese Person?",
+              "beispiel": "IT-Leitung: Integration, Sicherheit, Wartung"
+            },
+            {
+              "id": "anwender",
+              "label": "Anwender",
+              "frage": "Wer arbeitet täglich mit der Lösung, und was erleichtert ihm die Arbeit?"
+            }
+          ]
+        },
+        {
+          "id": "problem",
+          "titel": "Status quo & Problemstellung",
+          "felder": [
+            {
+              "id": "pain-point",
+              "label": "Problem im Markt",
+              "frage": "Welches Problem haben Unternehmen heute ohne Ihre Lösung?"
+            },
+            {
+              "id": "risiko",
+              "label": "Risiko des Nichtstuns",
+              "frage": "Was kostet es, wenn das Unternehmen nichts ändert?"
+            }
+          ]
+        },
+        {
+          "id": "ansatz",
+          "titel": "Strategischer Lösungsansatz",
+          "felder": [
+            {
+              "id": "value-proposition",
+              "label": "Kern-Nutzenversprechen",
+              "frage": "Welchen zentralen Nutzen bietet Ihre Lösung in einem Satz?"
+            },
+            {
+              "id": "differenzierung",
+              "label": "Differenzierung",
+              "frage": "Was unterscheidet Sie klar vom Wettbewerb?"
+            }
+          ]
+        },
+        {
+          "id": "produkt",
+          "titel": "Produkt & Technologie",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Lösungsname",
+              "frage": "Wie heißt die Lösung?"
+            },
+            {
+              "id": "feature",
+              "label": "Kern-Features",
+              "frage": "Welche technischen Kernfunktionen hat sie?"
+            },
+            {
+              "id": "benefit",
+              "label": "Business-Nutzen",
+              "frage": "Welchen geschäftlichen Nutzen bringt jede Funktion?"
+            },
+            {
+              "id": "integration",
+              "label": "Integration",
+              "frage": "Wie fügt sich die Lösung in bestehende Systeme ein?"
+            }
+          ]
+        },
+        {
+          "id": "trust",
+          "titel": "Trust & Validierung",
+          "felder": [
+            {
+              "id": "cases",
+              "label": "Fallstudien / Kundenlogos",
+              "frage": "Welche Referenzen und Ergebnisse können Sie zeigen?"
+            },
+            {
+              "id": "zertifikate",
+              "label": "Zertifizierungen",
+              "frage": "Welche Zertifikate, Normen oder Auszeichnungen gibt es?",
+              "beispiel": "ISO 27001, DSGVO-Konformität"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "cta",
+          "titel": "Call-to-Action & nächste Schritte",
+          "felder": [
+            {
+              "id": "hard-cta",
+              "label": "Haupt-CTA",
+              "frage": "Welche verbindliche Handlung ist das Ziel?",
+              "beispiel": "„Demo vereinbaren“"
+            },
+            {
+              "id": "soft-cta",
+              "label": "Weicher CTA / Risikoumkehr",
+              "frage": "Welches niedrigschwellige Angebot gibt es für Besucher, die noch nicht so weit sind?",
+              "beispiel": "Kostenloser Test, Geld-zurück-Garantie, Checkliste"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "produktbeschreibung",
+      "name": "Produktbeschreibung",
+      "kategorie": "verkauf",
+      "icon": "cart",
+      "titel": "Briefing: Produktbeschreibung für „[Produktname]“",
+      "beschreibung": "Für Produktseiten im Shop oder für digitale Produkte. Erzählender und scanbarer Teil.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "V2-V4"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Ziel & KPIs",
+          "felder": [
+            {
+              "id": "hauptziel",
+              "label": "Hauptziel der Seite",
+              "frage": "Was ist die wichtigste Aktion, die ein Besucher ausführen soll?",
+              "beispiel": "In den Warenkorb legen, kaufen, Muster anfordern"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Conversion-Rate, Add-to-Cart-Rate, Verkäufe"
+            }
+          ]
+        },
+        {
+          "id": "basis",
+          "titel": "Basis-Produktinformationen",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Produktname",
+              "frage": "Wie lautet der exakte Name?"
+            },
+            {
+              "id": "sku",
+              "label": "Artikelnummer (SKU)",
+              "frage": "Welche Artikelnummer hat das Produkt?"
+            },
+            {
+              "id": "technik",
+              "label": "Technische Daten",
+              "frage": "Welche Maße, Materialien oder Spezifikationen sind wichtig?"
+            }
+          ]
+        },
+        {
+          "id": "kunde",
+          "titel": "Zielgruppe & Nutzen",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Käufer-Persona",
+              "frage": "Für wen ist dieses Produkt ideal? Welches Problem löst es für diese Person?"
+            },
+            {
+              "id": "transformation",
+              "label": "Hauptnutzen",
+              "frage": "Was ist der wichtigste emotionale oder praktische Vorteil? Nicht das Feature, sondern der Nutzen.",
+              "beispiel": "„Endlich trocken durch den Herbst“ statt „Membran mit 20.000 mm Wassersäule“"
+            }
+          ]
+        },
+        {
+          "id": "story",
+          "titel": "Die Kern-Story (erzählender Teil)",
+          "felder": [
+            {
+              "id": "hook",
+              "label": "Einleitender Hook",
+              "frage": "Wie wecken Sie sofort Interesse, indem Sie ein bekanntes Problem oder einen Wunsch ansprechen?"
+            },
+            {
+              "id": "fliesstext",
+              "label": "Fließtext",
+              "frage": "Welche kurze Geschichte zeigt die drei bis fünf Hauptvorteile in einem Anwendungsfall? (ca. 2–3 Absätze)"
+            }
+          ]
+        },
+        {
+          "id": "merkmale",
+          "titel": "Merkmale & Vorteile (scanbarer Teil)",
+          "felder": [
+            {
+              "id": "bullets",
+              "label": "Bullet Points (3–5)",
+              "frage": "Welche drei bis fünf wichtigsten Merkmale fassen Sie zusammen? Übersetzen Sie jedes Merkmal in einen klaren Vorteil.",
+              "beispiel": "„Atmungsaktive Membran → Sie schwitzen auch bergauf nicht“"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & Suchintention",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Hauptkeyword",
+              "frage": "Wonach suchen Kunden?",
+              "beispiel": "„wasserdichte laufjacke herren“"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Sekundäre Keywords",
+              "frage": "Welche Synonyme, verwandten Begriffe oder Artikelnummern gehören dazu?"
+            },
+            {
+              "id": "suchintention",
+              "label": "Suchintention",
+              "frage": "Vergleicht der Nutzer noch oder hat er schon eine klare Kaufabsicht? Der Text muss das widerspiegeln."
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "medien",
+          "titel": "Visuelle Elemente & Tonalität",
+          "felder": [
+            {
+              "id": "bilder",
+              "label": "Bilder/Videos",
+              "frage": "Welche visuellen Medien sind nötig?",
+              "beispiel": "Produktfotos, Mockups, Anwendungsvideo, Trailer"
+            },
+            {
+              "id": "markenstimme",
+              "label": "Markenstimme",
+              "frage": "Wie ist die Tonalität?",
+              "beispiel": "Technisch-präzise, luxuriös-emotional, jugendlich-frech, klar und strukturiert"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "email-pitch",
+      "name": "E-Mail-Verkaufssequenz",
+      "kategorie": "email",
+      "icon": "mail",
+      "titel": "Briefing: E-Mail-Pitch-Sequenz für „[Angebot]“",
+      "beschreibung": "Drei E-Mails von der Aufwärmphase bis zum Abschluss, etwa für einen Produktstart.",
+      "quellen": [
+        "coaching",
+        "V2-V4",
+        "tl-campus"
+      ],
+      "abschnitte": [
+        {
+          "id": "strategie",
+          "titel": "Strategie & Ziel",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Ziel der Sequenz",
+              "frage": "Was ist das Hauptziel?",
+              "beispiel": "Verkauf eines Online-Kurses, Buchung von Erstgesprächen"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Öffnungsrate, Klickrate, Verkäufe"
+            },
+            {
+              "id": "angebot",
+              "label": "Ihr Angebot",
+              "frage": "Was genau verkaufen Sie? Was ist die zentrale Lösung für den Kunden?"
+            },
+            {
+              "id": "absender",
+              "label": "Absender",
+              "frage": "Wer ist der Absender der E-Mails?",
+              "beispiel": "[Ihr Name]"
+            }
+          ]
+        },
+        {
+          "id": "zielkunde",
+          "titel": "Zielkunde & seine Probleme",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Primäre Zielpersona",
+              "frage": "Wen sprechen Sie an?"
+            },
+            {
+              "id": "schmerzpunkt",
+              "label": "Größter Schmerzpunkt",
+              "frage": "Welches Gefühl oder Problem steht im Mittelpunkt?",
+              "beispiel": "Überforderung, fehlende Zeit, keine zahlenden Kunden"
+            },
+            {
+              "id": "transformation",
+              "label": "Gewünschte Transformation",
+              "frage": "Welches Gefühl oder Ergebnis soll der Kunde am Ende haben?",
+              "beispiel": "Klarheit, ein funktionierendes System, finanzielle Sicherheit"
+            }
+          ]
+        },
+        {
+          "id": "email-1",
+          "titel": "E-Mail 1: Aufwärmen",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Zweck",
+              "frage": "Problembewusstsein schaffen, Neugier wecken."
+            },
+            {
+              "id": "story",
+              "label": "Story-Element",
+              "frage": "Welche persönliche Anekdote oder welches Kundenszenario führt das Problem ein?",
+              "beispiel": "„Ich erinnere mich noch, wie ich stundenlang an einem Angebot saß …“"
+            },
+            {
+              "id": "cliffhanger",
+              "label": "Cliffhanger",
+              "frage": "Wie machen Sie neugierig auf die nächste E-Mail?",
+              "beispiel": "„Morgen zeige ich Ihnen die eine Sache, die für mich alles verändert hat …“"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Betreff (Option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Betreff (Option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "id": "email-2",
+          "titel": "E-Mail 2: Pitch & Lösung",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Zweck",
+              "frage": "Die Lösung präsentieren und Verlangen wecken."
+            },
+            {
+              "id": "erfolgsgeschichte",
+              "label": "Erfolgsgeschichte",
+              "frage": "Welche Erfolgsgeschichte, etwa die eines Kunden, zeigt die Wirksamkeit Ihrer Lösung?"
+            },
+            {
+              "id": "vorteile",
+              "label": "Kern-Vorteile",
+              "frage": "Was sind die drei Hauptvorteile Ihres Angebots?",
+              "beispiel": "Schritt-für-Schritt-Anleitung, persönliches Feedback, Zeitersparnis"
+            },
+            {
+              "id": "cta",
+              "label": "Call-to-Action (Link)",
+              "frage": "[Link zu Ihrer Angebotsseite]"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Betreff (Option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Betreff (Option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "id": "email-3",
+          "titel": "E-Mail 3: Dringlichkeit & Abschluss",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Zweck",
+              "frage": "Dringlichkeit erzeugen und zum Handeln motivieren."
+            },
+            {
+              "id": "dringlichkeit",
+              "label": "Element der Dringlichkeit",
+              "frage": "Was ist der Grund für die Frist?",
+              "beispiel": "Bonus läuft ab, nur fünf Plätze verfügbar"
+            },
+            {
+              "id": "einwand",
+              "label": "Einwandbehandlung",
+              "frage": "Welchen letzten Einwand greifen Sie auf?",
+              "beispiel": "„Schaffe ich das neben dem Tagesgeschäft?“"
+            },
+            {
+              "id": "cta",
+              "label": "Finaler Call-to-Action (Link)",
+              "frage": "[Link zu Ihrer Angebotsseite]"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Betreff (Option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Betreff (Option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "email-automation",
+      "name": "E-Mail-Automation",
+      "kategorie": "email",
+      "icon": "automation",
+      "titel": "Briefing: E-Mail-Sequenz für „[Zweck]“",
+      "beschreibung": "Für automatisierte Strecken wie Willkommen, Onboarding oder Reaktivierung.",
+      "quellen": [
+        "tl-campus-website"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Ziel der Sequenz",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Zweck",
+              "frage": "Was ist das Hauptziel?",
+              "beispiel": "Willkommens-Sequenz, Onboarding, Produkt-Launch, Reaktivierung"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "Woran messen Sie den Erfolg?",
+              "beispiel": "Öffnungsrate, Klickrate, Conversion-Rate"
+            }
+          ]
+        },
+        {
+          "id": "zielgruppe",
+          "titel": "Zielgruppe & Auslöser",
+          "felder": [
+            {
+              "id": "segment",
+              "label": "Segment",
+              "frage": "An wen richtet sich die Sequenz?"
+            },
+            {
+              "id": "trigger",
+              "label": "Auslöser (Trigger)",
+              "frage": "Welche Aktion startet die Sequenz?",
+              "beispiel": "Newsletter-Anmeldung, Kauf, längere Inaktivität"
+            }
+          ]
+        },
+        {
+          "id": "aufbau",
+          "titel": "Aufbau der Sequenz",
+          "felder": [
+            {
+              "id": "anzahl",
+              "label": "Anzahl der E-Mails",
+              "frage": "Wie viele E-Mails umfasst die Sequenz?"
+            },
+            {
+              "id": "timing",
+              "label": "Frequenz / Timing",
+              "frage": "In welchen Abständen werden die E-Mails versendet?",
+              "beispiel": "Tag 1, Tag 3, Tag 5"
+            }
+          ]
+        },
+        {
+          "id": "inhalt",
+          "titel": "Inhalt pro E-Mail",
+          "felder": [
+            {
+              "id": "email-1",
+              "label": "E-Mail 1",
+              "frage": "Thema und Ziel",
+              "beispiel": "Begrüßung und Erwartungsmanagement"
+            },
+            {
+              "id": "email-2",
+              "label": "E-Mail 2",
+              "frage": "Thema und Ziel",
+              "beispiel": "Ersten Mehrwert liefern"
+            },
+            {
+              "id": "email-weitere",
+              "label": "Weitere E-Mails",
+              "frage": "Thema und Ziel jeder weiteren E-Mail"
+            }
+          ]
+        },
+        {
+          "id": "tonalitaet",
+          "titel": "Tonalität & Absender",
+          "felder": [
+            {
+              "id": "stimme",
+              "label": "Stimme",
+              "frage": "Wie ist die Tonalität?",
+              "beispiel": "Persönlich, formell, humorvoll"
+            },
+            {
+              "id": "absender",
+              "label": "Absender",
+              "frage": "Wer ist der Absender?",
+              "beispiel": "Person, Team, Firma"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "cold-outreach",
+      "name": "B2B-Kaltakquise per E-Mail",
+      "kategorie": "email",
+      "icon": "send",
+      "titel": "Briefing: B2B-Outreach-Sequenz für „[Zielbranche]“",
+      "beschreibung": "Für Erstansprache von Unternehmen per E-Mail in drei Schritten.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "strategie",
+          "titel": "Kampagnen-Strategie",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Ziel der Sequenz",
+              "frage": "Was soll die Sequenz erreichen?",
+              "beispiel": "Ersttermin, Rückruf, Teilnahme an einem Webinar"
+            },
+            {
+              "id": "accounts",
+              "label": "Zielunternehmen",
+              "frage": "Welche Unternehmen sprechen Sie an? Branche, Größe, Region."
+            },
+            {
+              "id": "persona",
+              "label": "Ansprechpartner (Persona)",
+              "frage": "Welche Rolle hat die angeschriebene Person?"
+            }
+          ]
+        },
+        {
+          "id": "relevanz",
+          "titel": "Pain Points & Relevanz",
+          "felder": [
+            {
+              "id": "trigger",
+              "label": "Anlass (Trigger-Event)",
+              "frage": "Welcher Anlass macht die Ansprache gerade jetzt relevant?",
+              "beispiel": "Neue Gesetzeslage, Finanzierungsrunde, Stellenausschreibung, Standorteröffnung"
+            },
+            {
+              "id": "hypothese",
+              "label": "Hypothese",
+              "frage": "Welches Problem vermuten Sie beim Empfänger, und warum?"
+            }
+          ]
+        },
+        {
+          "id": "email-1",
+          "titel": "E-Mail 1",
+          "felder": [
+            {
+              "id": "betreff",
+              "label": "Betreff",
+              "frage": "Wie lautet der Betreff?"
+            },
+            {
+              "id": "hook",
+              "label": "Hook",
+              "frage": "Mit welchem ersten Satz zeigen Sie, dass Sie sich mit dem Empfänger beschäftigt haben?"
+            },
+            {
+              "id": "value",
+              "label": "Mehrwert",
+              "frage": "Welchen konkreten Hinweis oder welche Erkenntnis geben Sie ohne Gegenleistung?"
+            },
+            {
+              "id": "cta",
+              "label": "Call-to-Action",
+              "frage": "Welche einfache nächste Handlung schlagen Sie vor?"
+            }
+          ]
+        },
+        {
+          "id": "email-2",
+          "titel": "E-Mail 2",
+          "felder": [
+            {
+              "id": "kontext",
+              "label": "Kontext",
+              "frage": "Wie knüpfen Sie an die erste E-Mail an?"
+            },
+            {
+              "id": "social-proof",
+              "label": "Social Proof",
+              "frage": "Welches vergleichbare Unternehmen haben Sie bereits unterstützt?"
+            },
+            {
+              "id": "metrik",
+              "label": "Kennzahl",
+              "frage": "Welches messbare Ergebnis können Sie nennen?"
+            },
+            {
+              "id": "cta",
+              "label": "Call-to-Action",
+              "frage": "Welche nächste Handlung schlagen Sie vor?"
+            }
+          ]
+        },
+        {
+          "id": "email-3",
+          "titel": "E-Mail 3",
+          "felder": [
+            {
+              "id": "ansatz",
+              "label": "Ansatz",
+              "frage": "Mit welchem anderen Blickwinkel versuchen Sie es ein letztes Mal?"
+            },
+            {
+              "id": "ressource",
+              "label": "Ressource",
+              "frage": "Welche hilfreiche Ressource bieten Sie zum Abschluss an?",
+              "beispiel": "Checkliste, Fallstudie, Studie"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "website-relaunch",
+      "name": "Website-Relaunch",
+      "kategorie": "projekt",
+      "icon": "rocket",
+      "titel": "Briefing: Website-Relaunch für „[Unternehmen]“",
+      "beschreibung": "Operatives und technisches Briefing für einen Relaunch mit SEO-Fokus.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website"
+      ],
+      "abschnitte": [
+        {
+          "id": "grundlage",
+          "titel": "Strategische Grundlage & Projekt-Setup",
+          "felder": [
+            {
+              "id": "warum",
+              "label": "Grund für den Relaunch",
+              "frage": "Was ist der wichtigste Grund?",
+              "beispiel": "Veraltetes Design, technische Mängel, schlechte Nutzerführung, Rebranding, neues Angebot"
+            },
+            {
+              "id": "ziele",
+              "label": "Messbare Projektziele",
+              "frage": "Welche drei bis fünf KPIs definieren den Erfolg?",
+              "beispiel": "+20 % Conversion-Rate, +30 % organische Leads, Top-5-Ranking für das Hauptkeyword"
+            },
+            {
+              "id": "team",
+              "label": "Projektteam & Verantwortung",
+              "frage": "Wer ist Hauptansprechpartner? Wer liefert Inhalte, wer verantwortet Design und Technik?"
+            },
+            {
+              "id": "zeitplan",
+              "label": "Zeitplan & Meilensteine",
+              "frage": "Wann ist der Go-Live geplant? Welche Meilensteine gibt es?",
+              "beispiel": "Design-Abnahme, Inhalte fertig, Go-Live"
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "titel": "IST-Analyse & Content-Strategie",
+          "felder": [
+            {
+              "id": "inventar",
+              "label": "Content-Inventar & Audit",
+              "frage": "Welche Seiten werden übernommen (Keep), überarbeitet (Improve) oder gelöscht (Kill)?"
+            },
+            {
+              "id": "keyword-mapping",
+              "label": "Keyword-Mapping",
+              "frage": "Hat jede wichtige neue Seite ein Hauptkeyword und eine Suchintention?"
+            },
+            {
+              "id": "metadaten",
+              "label": "SEO-Metadaten",
+              "frage": "Wie werden Title-Tags und Meta-Descriptions übernommen und verbessert?"
+            },
+            {
+              "id": "erstellung",
+              "label": "Content-Erstellung & Migration",
+              "frage": "Wer überarbeitet und erstellt die Inhalte, und bis wann?"
+            }
+          ]
+        },
+        {
+          "id": "technik",
+          "titel": "Technisches SEO & Architektur",
+          "felder": [
+            {
+              "id": "urls",
+              "label": "URL-Struktur",
+              "frage": "Ändert sich die URL-Struktur? Wenn ja, wie sieht die neue aus?"
+            },
+            {
+              "id": "weiterleitungen",
+              "label": "Weiterleitungs-Konzept",
+              "frage": "Liegt eine vollständige 301-Weiterleitungs-Liste (alt → neu) vor? Wer ist dafür verantwortlich?"
+            },
+            {
+              "id": "indexierung",
+              "label": "Crawling & Indexierung",
+              "frage": "Wie werden robots.txt und XML-Sitemap konfiguriert? Gibt es Bereiche, die nicht indexiert werden sollen?"
+            },
+            {
+              "id": "performance",
+              "label": "Core Web Vitals & Performance",
+              "frage": "Welche Werte für Ladezeit und Interaktivität (LCP, INP, CLS) werden angestrebt?"
+            }
+          ]
+        },
+        {
+          "id": "ux",
+          "titel": "Design, UX & interne Verlinkung",
+          "felder": [
+            {
+              "id": "journeys",
+              "label": "Zielgruppen & Nutzerwege",
+              "frage": "Wer sind die Hauptnutzer, und welche Aufgaben sollen sie auf der Seite erledigen können?"
+            },
+            {
+              "id": "mobile",
+              "label": "Mobile First",
+              "frage": "Ist das Design konsequent für Smartphones entwickelt und getestet?"
+            },
+            {
+              "id": "verlinkung",
+              "label": "Interne Verlinkung",
+              "frage": "Wie sorgt das Design für eine logische, starke interne Verlinkung?",
+              "beispiel": "Breadcrumbs, thematische Hubs"
+            }
+          ]
+        },
+        {
+          "id": "ki",
+          "titel": "KI-Sichtbarkeit",
+          "felder": [
+            {
+              "id": "crawler",
+              "label": "KI-Crawler",
+              "frage": "Welche KI-Crawler dürfen die Seite lesen, und ist das in der robots.txt so eingestellt?",
+              "beispiel": "GPTBot, ClaudeBot, PerplexityBot, Google-Extended"
+            },
+            {
+              "id": "strukturierte-daten",
+              "label": "Strukturierte Daten",
+              "frage": "Welche schema.org-Auszeichnungen werden eingebaut?",
+              "beispiel": "Organization, Person, Article, FAQPage, Product"
+            },
+            {
+              "id": "llms-txt",
+              "label": "llms.txt",
+              "frage": "Soll eine llms.txt die wichtigsten Seiten für KI-Assistenten zusammenfassen?"
+            }
+          ]
+        },
+        {
+          "id": "tracking",
+          "titel": "Tracking, Go-Live & Erfolgsmessung",
+          "felder": [
+            {
+              "id": "tools",
+              "label": "Analyse-Tools",
+              "frage": "Welche Tools müssen eingerichtet werden?",
+              "beispiel": "Google Analytics 4, Google Search Console, Matomo"
+            },
+            {
+              "id": "konzept",
+              "label": "Tracking-Konzept",
+              "frage": "Welche Events und Conversions müssen gemessen werden?"
+            },
+            {
+              "id": "go-live",
+              "label": "Go-Live-Checkliste",
+              "frage": "Was passiert am Launch-Tag?",
+              "beispiel": "Weiterleitungen prüfen, Tracking verifizieren, Indexierung anstoßen"
+            },
+            {
+              "id": "vergleich",
+              "label": "Vorher-Nachher-Analyse",
+              "frage": "Welche KPIs werden vor und nach dem Relaunch verglichen?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "ki-video",
+      "name": "KI-Video-Skript",
+      "kategorie": "medien",
+      "icon": "video",
+      "titel": "Briefing: KI-Video-Skript für „[Video-Thema]“",
+      "beschreibung": "Für Videos, die mit KI-Videogeneratoren erstellt werden. Beschreibt Szene, Kamera und Stimmung so genau, dass sie sich direkt als Prompt nutzen lassen.",
+      "quellen": [
+        "tl-campus-wp-optim"
+      ],
+      "abschnitte": [
+        {
+          "id": "kernidee",
+          "titel": "Kernidee & Ziel",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Video-Ziel",
+              "frage": "Was ist das Hauptziel des Videos?",
+              "beispiel": "Aufmerksamkeit für ein neues Angebot, Erklärung eines Konzepts"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Kernbotschaft",
+              "frage": "Welche eine Botschaft soll hängen bleiben?"
+            },
+            {
+              "id": "emotion",
+              "label": "Gewünschte Emotion / Stimmung",
+              "frage": "Welches Gefühl soll das Video auslösen?",
+              "beispiel": "Vertrauen, Begeisterung, Neugier, Ruhe"
+            }
+          ]
+        },
+        {
+          "id": "szene",
+          "titel": "Die Szene im Detail (Wer, Was, Wo, Wie?)",
+          "felder": [
+            {
+              "id": "wer",
+              "label": "Charaktere (Wer?)",
+              "frage": "Beschreiben Sie die Person(en) genau.",
+              "beispiel": "„Eine Beraterin, Mitte 40, mit warmer, vertrauensvoller Ausstrahlung, in professionellem, aber zugänglichem Business-Casual.“"
+            },
+            {
+              "id": "was",
+              "label": "Handlung (Was?)",
+              "frage": "Was passiert in der Szene?",
+              "beispiel": "„Sie sitzt an einem aufgeräumten Holzschreibtisch und spricht ruhig in die Kamera, als führe sie ein persönliches Gespräch.“"
+            },
+            {
+              "id": "wo",
+              "label": "Ort / Umgebung (Wo?)",
+              "frage": "Beschreiben Sie den Schauplatz.",
+              "beispiel": "„Ein helles Büro mit großer Pflanze im Hintergrund. Durchs Fenster fällt weiches Morgenlicht.“"
+            },
+            {
+              "id": "wie",
+              "label": "Visueller Stil & Licht (Wie?)",
+              "frage": "Beschreiben Sie den Look.",
+              "beispiel": "„Warme, natürliche Farben, weiches Licht, ruhige und konzentrierte Atmosphäre.“"
+            }
+          ]
+        },
+        {
+          "id": "kamera",
+          "titel": "Kameraführung & Regieanweisungen",
+          "felder": [
+            {
+              "id": "eroeffnung",
+              "label": "Eröffnungsszene",
+              "frage": "Wie beginnt die Szene?",
+              "beispiel": "„Totale des Raumes, die Kamera fährt langsam auf die Person am Schreibtisch zu (Dolly-in).“"
+            },
+            {
+              "id": "haupteinstellung",
+              "label": "Haupteinstellung",
+              "frage": "Was ist die wichtigste Kameraeinstellung?",
+              "beispiel": "„Halbnah, von der Hüfte aufwärts.“"
+            },
+            {
+              "id": "bewegungen",
+              "label": "Kamerabewegungen",
+              "frage": "Gibt es bestimmte Bewegungen?",
+              "beispiel": "„Bei Sekunde 15 ein langsamer Zoom aufs Gesicht“, „Schwenk zu einem Whiteboard mit Skizze“"
+            },
+            {
+              "id": "schlussbild",
+              "label": "Schlüsselbild / Schlusseinstellung",
+              "frage": "Welches Bild soll im Kopf bleiben?",
+              "beispiel": "„Nahaufnahme eines freundlichen, überzeugten Lächelns.“"
+            }
+          ]
+        },
+        {
+          "id": "details",
+          "titel": "Emotionale Details & Nuancen",
+          "felder": [
+            {
+              "id": "mimik",
+              "label": "Mimik & Gestik",
+              "frage": "Welche feinen Details sollen die Figuren zeigen?",
+              "beispiel": "„Ruhige Gesten mit offenen Händen“, „Verständnisvolles Nicken“"
+            },
+            {
+              "id": "atmosphaere",
+              "label": "Atmosphärische Details",
+              "frage": "Welche Elemente unterstreichen die Stimmung?",
+              "beispiel": "„Dampf steigt aus einer Kaffeetasse“, „Unscharfe Bücherregale im Hintergrund“"
+            },
+            {
+              "id": "ton",
+              "label": "Ton & Sound",
+              "frage": "Welche Vorgaben gibt es für den Ton?",
+              "beispiel": "„Keine Musik, nur die klare Stimme.“"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    }
+  ],
+  "ki-voranalyse": {
+    "hinweis": "Optionaler KI-Schritt aus v5 und der Coaching-Variante. Läuft künftig über einen Cloudflare Worker (Key serverseitig, fester Prompt, Rate-Limit). Die Eingaben unten befüllen die Vorlagen vor.",
+    "felder": [
+      {
+        "id": "url",
+        "label": "Unternehmens-Website (URL)",
+        "beispiel": "https://ihr-unternehmen.de"
+      },
+      {
+        "id": "thema",
+        "label": "Themenschwerpunkt",
+        "beispiel": "KI-gestützte Prozessautomatisierung"
+      },
+      {
+        "id": "keyword",
+        "label": "Fokus-Keyword",
+        "beispiel": "predictive maintenance lösungen"
+      },
+      {
+        "id": "zielgruppe",
+        "label": "Zielgruppe / Buying Center",
+        "beispiel": "IT-Leitung und Geschäftsführung im Maschinenbau"
+      },
+      {
+        "id": "ziel",
+        "label": "Business-Ziel",
+        "beispiel": "Qualifizierte Demo-Anfragen"
+      },
+      {
+        "id": "usp",
+        "label": "Wesentliche Vorteile / USPs"
+      },
+      {
+        "id": "tonalitaet",
+        "label": "Tonalität",
+        "optionen": [
+          "Souverän & professionell",
+          "Executive-Summary-Stil (C-Level)",
+          "Rein technisch / dokumentarisch"
+        ]
+      }
+    ]
+  }
+}

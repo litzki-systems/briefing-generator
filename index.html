@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Briefing Generator</title>
+  <meta name="description" content="Free briefing generator with 12 templates. Fill in a brief in your browser and export it as a fillable PDF, Markdown or print. No server, no tracking.">
+  <link rel="stylesheet" href="css/briefing-generator.css">
+</head>
+<body>
+<main class="page">
+  <header class="page__head">
+    <h1 class="page__title">Briefing Generator</h1>
+    <span class="page__lang"><a href="index.de.html" hreflang="de" lang="de">Deutsch</a></span>
+  </header>
+
+  <div id="briefing-generator" class="bg-tool" data-base="./">
+    <div class="bg-tool__intro">
+      <p>Choose one of the 12 templates, fill in what you already know and save the result as a fillable PDF. Empty fields remain input fields in the PDF, so the template turns into a questionnaire your agency can complete on screen.</p>
+      <p class="bg-tool__note">All input stays in your browser. Nothing is stored or transmitted. It is lost when you reload the page.</p>
+    </div>
+    <div class="bg-picker" data-bg="picker" aria-label="Templates"></div>
+    <div class="bg-form" data-bg="form">
+      <noscript>The generator needs JavaScript.</noscript>
+    </div>
+    <div class="bg-actions">
+      <button type="button" class="btn btn--primary" data-bg="pdf">Fillable PDF</button>
+      <button type="button" class="btn btn--outline" data-bg="copy">Copy</button>
+      <button type="button" class="btn btn--outline" data-bg="download">As file (.md)</button>
+      <button type="button" class="btn btn--outline" data-bg="print">Print</button>
+      <button type="button" class="btn btn--secondary" data-bg="reset">Reset</button>
+      <div class="bg-actions__meta">
+        <span data-bg="status" aria-live="polite"></span>
+        <label><input type="checkbox" id="bg-nur-ausgefuellt"> Export filled-in fields only</label>
+        <span class="bg-notice" data-bg="notice" role="status" aria-live="polite"></span>
+      </div>
+    </div>
+  </div>
+
+  <p class="page__foot">Open source under the MIT license · <a href="https://github.com/litzki-systems/briefing-generator">Source on GitHub</a> · Guide: <a href="https://thorsten-litzki.de/en/blog/creating-a-briefing-structure/">How to write a brief</a> by Thorsten Litzki</p>
+</main>
+<script src="js/briefing-generator.js"></script>
+</body>
+</html>

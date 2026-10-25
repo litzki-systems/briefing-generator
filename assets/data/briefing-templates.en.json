@@ -1,0 +1,2047 @@
+{
+  "version": "1.2.0",
+  "stand": "2026-10-25",
+  "sprache": "en",
+  "ansprache": "you",
+  "hinweis": "Unified template data for the Briefing Generator on thorsten-litzki.de, merged from the earlier generator versions (V2, V3, V4, tl-campus Standard/Website/wp-optim, v5 B2B) and the coaching variant. Each field has label (short name), frage (the question to fill in) and beispiel (optional example). The origin of each template is listed under 'quellen'.",
+  "kategorien": [
+    {
+      "id": "content",
+      "name": "Content & SEO"
+    },
+    {
+      "id": "verkauf",
+      "name": "Sales & Conversion"
+    },
+    {
+      "id": "email",
+      "name": "Email"
+    },
+    {
+      "id": "projekt",
+      "name": "Projects"
+    },
+    {
+      "id": "medien",
+      "name": "Video & AI Media"
+    }
+  ],
+  "bausteine": {
+    "ki-sichtbarkeit": {
+      "id": "ki-sichtbarkeit",
+      "titel": "AI Search & AI Overviews",
+      "felder": [
+        {
+          "id": "direkte-antwort",
+          "label": "Direct answer",
+          "frage": "What core question does the text answer, and what is the answer in one or two sentences? Put this answer at the start of the matching section.",
+          "beispiel": "Question: “How long should a brief be?” Answer: “As short as possible, as long as necessary: usually one or two pages.”"
+        },
+        {
+          "id": "zitierfaehige-fakten",
+          "label": "Citable facts",
+          "frage": "Which of your own figures, data, studies or first-hand experience make the text worth citing for search engines and AI assistants? Include the source.",
+          "beispiel": "Your own analysis of 200 projects, metrics from Search Console, a study with a link"
+        },
+        {
+          "id": "begriffe",
+          "label": "Terms & entities",
+          "frage": "Which technical terms, brands, products and people should be named clearly and briefly explained?",
+          "beispiel": "Content brief, search intent, AI Overviews"
+        },
+        {
+          "id": "fragen-abdeckung",
+          "label": "Question coverage",
+          "frage": "Which user questions (e.g. from “People also ask” on Google or from a content analysis) should the text answer explicitly?",
+          "beispiel": "What is a brief? · What goes into it? · Which mistakes should you avoid?"
+        },
+        {
+          "id": "expertise",
+          "label": "E-E-A-T: Experience & expertise",
+          "frage": "How does the text show experience, expertise, authoritativeness and trustworthiness? Who is the author behind it?",
+          "beispiel": "Your own real-world examples, case studies, expert quotes, reliable sources, an author box with a profile link"
+        }
+      ]
+    },
+    "organisation": {
+      "id": "organisation",
+      "titel": "Logistics & references",
+      "felder": [
+        {
+          "id": "deadline",
+          "label": "Deadline",
+          "frage": "When do you need the draft, and when the final version?",
+          "beispiel": "Draft MM/DD/YYYY, sign-off MM/DD/YYYY"
+        },
+        {
+          "id": "ansprechpartner",
+          "label": "Contact person",
+          "frage": "Who answers questions, and through which channel?"
+        },
+        {
+          "id": "rueckfragen",
+          "label": "Resolving open questions",
+          "frage": "How are open questions collected and resolved?",
+          "beispiel": "A kick-off meeting, a shared document with comments"
+        },
+        {
+          "id": "freigabe",
+          "label": "Revisions & sign-off",
+          "frage": "How many revision rounds are planned, and who gives final sign-off?"
+        },
+        {
+          "id": "beteiligte",
+          "label": "Stakeholders",
+          "frage": "Have all project stakeholders been informed? Who else needs to see the brief?"
+        },
+        {
+          "id": "referenzen",
+          "label": "Examples & references",
+          "frage": "Are there good examples of the style or content you want, internal documents or other resources?"
+        },
+        {
+          "id": "rebriefing",
+          "label": "Re-briefing",
+          "frage": "Have all goals and requirements been understood correctly? Are there open points? Does the proposed approach work for everyone involved?",
+          "beispiel": "The contractor summarizes the brief in their own words and sends it back."
+        }
+      ]
+    }
+  },
+  "vorlagen": [
+    {
+      "id": "content-briefing",
+      "name": "Content brief (blog post)",
+      "kategorie": "content",
+      "icon": "article",
+      "titel": "Brief: Blog post “[Topic]”",
+      "beschreibung": "For blog posts, guides and landing pages with informational intent. The most used template.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "blog-briefing.txt",
+        "V2-V4",
+        "Leitfaden-PDF (14 Elemente)"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Goal & KPIs",
+          "felder": [
+            {
+              "id": "primaerziel",
+              "label": "Primary goal",
+              "frage": "What should the article achieve for you?",
+              "beispiel": "Drive traffic to the website, build trust, win newsletter subscribers or leads, thought leadership"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Rankings, time on page, comments, new leads"
+            },
+            {
+              "id": "kontext",
+              "label": "Context",
+              "frage": "What is the context of this content?",
+              "beispiel": "Part of a campaign, part of a topic cluster, standalone article"
+            }
+          ]
+        },
+        {
+          "id": "zielgruppe",
+          "titel": "Audience & key message",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Reader persona",
+              "frage": "Who are you writing for? What problem or interest does this person have right now?",
+              "beispiel": "Marketing manager at a mid-sized company hiring an agency for the first time"
+            },
+            {
+              "id": "sprache",
+              "label": "Audience language",
+              "frage": "Which terms does the audience use themselves? How much jargon can they handle?"
+            },
+            {
+              "id": "pain-points",
+              "label": "Pain points",
+              "frage": "What problems does the audience have with this topic?"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Key message",
+              "frage": "What is the one thing the reader should know, understand or feel after reading?"
+            },
+            {
+              "id": "winkel",
+              "label": "Content angle",
+              "frage": "From which perspective is the topic covered?",
+              "beispiel": "Beginner's guide, expert opinion, case study"
+            }
+          ]
+        },
+        {
+          "id": "format",
+          "titel": "Content type, format & tone",
+          "felder": [
+            {
+              "id": "content-typ",
+              "label": "Content type",
+              "frage": "What kind of content is being created?",
+              "beispiel": "Blog post, guide, white paper, landing page, social media post"
+            },
+            {
+              "id": "formatierung",
+              "label": "Formatting",
+              "frage": "Are there formatting requirements?",
+              "beispiel": "Plenty of subheadings, short paragraphs, lists, tables, infographics"
+            },
+            {
+              "id": "wortanzahl",
+              "label": "Word count / length",
+              "frage": "Roughly how long should the text be? A realistic figure helps with planning.",
+              "beispiel": "A comprehensive guide often runs 1,800 words or more, without filler. Use the length of the top results as a guide."
+            },
+            {
+              "id": "tonalitaet",
+              "label": "Tone & style",
+              "frage": "How should the text sound?",
+              "beispiel": "Professional, casual, inspiring, technical"
+            },
+            {
+              "id": "styleguide",
+              "label": "Brand voice & style guide",
+              "frage": "Is there a style guide? Formal or informal address? Inclusive language, and if so, how?"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & keywords",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Primary keyword",
+              "frage": "Which search term should the article rank for?",
+              "beispiel": "“how to write a brief”"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Secondary keywords",
+              "frage": "Which three to five related terms belong with it?",
+              "beispiel": "“content brief template”, “content brief”, “writing a brief”"
+            },
+            {
+              "id": "platzierung",
+              "label": "Keyword placement",
+              "frage": "Where should the primary keyword appear? Usually in the title, H1, at least one H2 and the first paragraph, used naturally and without keyword stuffing."
+            },
+            {
+              "id": "suchintention",
+              "label": "Search intent",
+              "frage": "What specific question does the searcher want answered?"
+            },
+            {
+              "id": "meta-title",
+              "label": "Meta title",
+              "frage": "Suggestion or requirement for the page title?",
+              "beispiel": "About 60 characters max, keyword at the front"
+            },
+            {
+              "id": "meta-description",
+              "label": "Meta description",
+              "frage": "Suggestion or requirement for the meta description?",
+              "beispiel": "About 160 characters max, includes the keyword, compelling to click"
+            }
+          ]
+        },
+        {
+          "id": "wettbewerb",
+          "titel": "Competitor analysis",
+          "felder": [
+            {
+              "id": "top-ergebnisse",
+              "label": "Who already ranks?",
+              "frage": "Which pages hold the top positions for the primary keyword?"
+            },
+            {
+              "id": "content-gaps",
+              "label": "Content gaps",
+              "frage": "What do competitors do well, what are they missing, and what can you do better?"
+            }
+          ]
+        },
+        {
+          "id": "gliederung",
+          "titel": "Outline & content",
+          "felder": [
+            {
+              "id": "angle",
+              "label": "Unique angle",
+              "frage": "What makes your article better or different from other articles on the same topic?"
+            },
+            {
+              "id": "gliederung",
+              "label": "Outline (suggested)",
+              "frage": "How is the article structured?",
+              "beispiel": "H1: Keyword-optimized, engaging headline, e.g. “5 briefing mistakes that cost you dearly” · Introduction: a hook that addresses the audience's problem · H2: Mistake 1 … · H2: Mistake 2 … · H2: Mistake 3 … · H2: FAQ (frequently asked questions) · Conclusion: summary and a clear call to action"
+            },
+            {
+              "id": "pflichtelemente",
+              "label": "Required elements",
+              "frage": "Are there elements or questions that must be included?"
+            },
+            {
+              "id": "elemente",
+              "label": "Key elements",
+              "frage": "Which elements belong in the text?",
+              "beispiel": "Real-world examples, graphics, expert quotes, internal links"
+            },
+            {
+              "id": "faq",
+              "label": "FAQ section",
+              "frage": "Should an FAQ section answer common user questions directly? If so, which questions?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "links",
+          "titel": "Internal & external links",
+          "felder": [
+            {
+              "id": "intern",
+              "label": "Internal links",
+              "frage": "Which of your own pages should be linked? Important for SEO and user navigation."
+            },
+            {
+              "id": "extern",
+              "label": "External links",
+              "frage": "Are there requirements for external links, for example to studies or trusted sources?"
+            }
+          ]
+        },
+        {
+          "id": "cta",
+          "titel": "Call to action",
+          "felder": [
+            {
+              "id": "naechster-schritt",
+              "label": "Next step",
+              "frage": "What should the reader do after reading the article?",
+              "beispiel": "“Download the checklist”, “Book a free intro call”"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "corporate-blog-whitepaper",
+      "name": "Corporate blog / white paper",
+      "kategorie": "content",
+      "icon": "report",
+      "titel": "Brief: Content piece on “[Topic]”",
+      "beschreibung": "For expert articles, white papers and e-books aimed at a B2B audience.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Objectives & SEO",
+          "felder": [
+            {
+              "id": "content-typ",
+              "label": "Content type",
+              "frage": "What format is being created?",
+              "beispiel": "Blog post, white paper, e-book, guide"
+            },
+            {
+              "id": "suchintention",
+              "label": "Search intent",
+              "frage": "What question or task does the reader have when they come across the content?"
+            },
+            {
+              "id": "hauptkeyword",
+              "label": "Primary keyword",
+              "frage": "Which search term should the content rank for?",
+              "beispiel": "“predictive maintenance solutions”"
+            }
+          ]
+        },
+        {
+          "id": "ansprache",
+          "titel": "Addressing the audience",
+          "felder": [
+            {
+              "id": "expertise-level",
+              "label": "Reader knowledge level",
+              "frage": "How much prior knowledge do readers have?",
+              "beispiel": "Beginners, specialist users, C-level decision-makers"
+            },
+            {
+              "id": "tonalitaet",
+              "label": "Tone",
+              "frage": "How should the text sound?",
+              "beispiel": "Factual and documentary, advisory, executive summary style"
+            }
+          ]
+        },
+        {
+          "id": "struktur",
+          "titel": "Content structure",
+          "felder": [
+            {
+              "id": "h1",
+              "label": "H1 headline",
+              "frage": "What is the main headline?"
+            },
+            {
+              "id": "executive-summary",
+              "label": "Executive summary",
+              "frage": "What are the key points in three to five sentences, for readers short on time?"
+            },
+            {
+              "id": "gliederung",
+              "label": "H2/H3 outline",
+              "frage": "Which chapters and subchapters does the content have?"
+            },
+            {
+              "id": "daten",
+              "label": "Data & facts",
+              "frage": "Which figures, studies or proprietary data support the argument?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "conversion",
+          "titel": "Conversion elements",
+          "felder": [
+            {
+              "id": "naechster-schritt",
+              "label": "Next logical step",
+              "frage": "What should the reader do next?",
+              "beispiel": "Request a demo, download the white paper, read a case study"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "gastbeitrag",
+      "name": "Guest post / sponsored article",
+      "kategorie": "content",
+      "icon": "link",
+      "titel": "Brief: Guest post for “[Publisher]”",
+      "beschreibung": "For sponsored articles and guest posts on third-party sites, for example as part of link building.",
+      "quellen": [
+        "coaching",
+        "V2-V4",
+        "tl-campus"
+      ],
+      "abschnitte": [
+        {
+          "id": "publisher",
+          "titel": "Admin & publisher requirements",
+          "felder": [
+            {
+              "id": "portal",
+              "label": "Publisher / site",
+              "frage": "On which website or in which magazine will the article appear?",
+              "beispiel": "Trade magazine, regional news site"
+            },
+            {
+              "id": "qualitaet",
+              "label": "Quality tier",
+              "frage": "Which quality tier has been booked?",
+              "beispiel": "Expert article, standard"
+            },
+            {
+              "id": "umfang",
+              "label": "Character count",
+              "frage": "How long should the article be?",
+              "beispiel": "3,000–3,500 characters"
+            },
+            {
+              "id": "werbecharakter",
+              "label": "Promotional tone",
+              "frage": "How promotional may the article be?",
+              "beispiel": "Allowed / subtle / not allowed"
+            },
+            {
+              "id": "laufzeit",
+              "label": "Duration",
+              "frage": "How long will the article stay online?",
+              "beispiel": "12 months unchanged, permanently"
+            }
+          ]
+        },
+        {
+          "id": "ziel",
+          "titel": "Goal & KPIs",
+          "felder": [
+            {
+              "id": "primaerziel",
+              "label": "Primary goal",
+              "frage": "What should the article achieve for you?",
+              "beispiel": "Send qualified traffic to your website, position you as an expert"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Clicks on the link, new newsletter subscribers"
+            }
+          ]
+        },
+        {
+          "id": "links",
+          "titel": "SEO & link requirements",
+          "felder": [
+            {
+              "id": "zielseite",
+              "label": "Link: target page (URL)",
+              "frage": "Which page on your website should the link point to?",
+              "beispiel": "A guide article or a service page"
+            },
+            {
+              "id": "ankertext",
+              "label": "Link: anchor text",
+              "frage": "What is the link text?",
+              "beispiel": "“create a content brief”"
+            },
+            {
+              "id": "dofollow",
+              "label": "Dofollow allowed",
+              "frage": "May the link be dofollow?",
+              "beispiel": "Yes / No"
+            },
+            {
+              "id": "externe-links",
+              "label": "Other external links",
+              "frage": "Are links to other, non-competing sources (e.g. studies) allowed or wanted?"
+            }
+          ]
+        },
+        {
+          "id": "thema",
+          "titel": "Topic, keywords & audience",
+          "felder": [
+            {
+              "id": "thema",
+              "label": "Topic",
+              "frage": "What is the article about?",
+              "beispiel": "“How businesses find their niche and become visible online”"
+            },
+            {
+              "id": "hauptkeyword",
+              "label": "Primary keyword",
+              "frage": "Which search term should the article rank for?"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Secondary keywords",
+              "frage": "Which related terms belong with it?"
+            },
+            {
+              "id": "suchintention",
+              "label": "Search intent",
+              "frage": "Which specific reader question does the article answer?"
+            }
+          ]
+        },
+        {
+          "id": "inhalt",
+          "titel": "Content & outline",
+          "felder": [
+            {
+              "id": "quellen",
+              "label": "Factual accuracy",
+              "frage": "Are there sources or facts that should be used?"
+            },
+            {
+              "id": "gliederung",
+              "label": "Outline (suggested)",
+              "frage": "How is the article structured?",
+              "beispiel": "H1: Keyword-optimized headline · Introduction: a hook built on the audience's problem · H2: Why the topic matters · H2: Three steps to the solution · H2: Common mistakes · H2: FAQ · Conclusion: summary and transition to the link"
+            },
+            {
+              "id": "elemente",
+              "label": "Key elements",
+              "frage": "Which elements belong in the text?",
+              "beispiel": "Real-world examples, graphics, quotes"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "medien",
+          "titel": "Visual media & formatting",
+          "felder": [
+            {
+              "id": "hauptfoto",
+              "label": "Main photo",
+              "frage": "Who provides the main photo?",
+              "beispiel": "Client / author"
+            },
+            {
+              "id": "weitere-fotos",
+              "label": "Additional photos",
+              "frage": "How many additional photos are allowed or wanted?",
+              "beispiel": "1–5"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "fachartikel",
+      "name": "Trade article / advertorial",
+      "kategorie": "content",
+      "icon": "newspaper",
+      "titel": "Brief: Trade article for “[Publication]”",
+      "beschreibung": "For articles in trade media aimed at thought leadership.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "publikation",
+          "titel": "Publication details",
+          "felder": [
+            {
+              "id": "medium",
+              "label": "Publication",
+              "frage": "In which publication or on which site will the article appear?"
+            },
+            {
+              "id": "leserschaft",
+              "label": "Publication's audience",
+              "frage": "Who reads the publication, and what do these readers expect?"
+            },
+            {
+              "id": "format",
+              "label": "Format requirements",
+              "frage": "What requirements does the editorial team set?",
+              "beispiel": "Length, image formats, byline, submission deadline"
+            }
+          ]
+        },
+        {
+          "id": "ziel",
+          "titel": "Thought leadership goal",
+          "felder": [
+            {
+              "id": "positionierung",
+              "label": "Positioning",
+              "frage": "How do you want to be perceived through this article?"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Key message",
+              "frage": "What one statement should stick with the reader?"
+            }
+          ]
+        },
+        {
+          "id": "ausrichtung",
+          "titel": "Editorial focus",
+          "felder": [
+            {
+              "id": "headline",
+              "label": "Topic / headline idea",
+              "frage": "What is the topic, and what headline could work?"
+            },
+            {
+              "id": "tiefgang",
+              "label": "Technical depth",
+              "frage": "How technical may or must the article be?"
+            },
+            {
+              "id": "aufhaenger",
+              "label": "Current news hook",
+              "frage": "Which current event, law or market topic makes the article relevant right now?"
+            }
+          ]
+        },
+        {
+          "id": "struktur",
+          "titel": "Structure & line of argument",
+          "felder": [
+            {
+              "id": "intro",
+              "label": "Introduction",
+              "frage": "How does the article open?"
+            },
+            {
+              "id": "problem",
+              "label": "Main body: problem",
+              "frage": "Which problem is described, and why does it matter?"
+            },
+            {
+              "id": "loesung",
+              "label": "Main body: solution",
+              "frage": "Which solution or approach do you present?"
+            },
+            {
+              "id": "fazit",
+              "label": "Conclusion / outlook",
+              "frage": "With which assessment or forecast does the article end?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "assets",
+          "titel": "Assets & links",
+          "felder": [
+            {
+              "id": "grafiken",
+              "label": "Graphics",
+              "frage": "Which graphics, charts or photos will be supplied?"
+            },
+            {
+              "id": "backlinks",
+              "label": "Links",
+              "frage": "Which links are planned and permitted by the editorial team?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "sales-page",
+      "name": "Sales page / landing page",
+      "kategorie": "verkauf",
+      "icon": "sales",
+      "titel": "Brief: Sales page for “[Product/Offer]”",
+      "beschreibung": "For sales pages and landing pages with clear purchase intent. A narrative structure that moves from problem to solution.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "V2-V4"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Goal & KPIs",
+          "felder": [
+            {
+              "id": "verkaufsziel",
+              "label": "Primary sales goal",
+              "frage": "What should this page achieve?",
+              "beispiel": "100 sales per month, 50 demo bookings, 5 inquiries for consulting projects"
+            },
+            {
+              "id": "kpis",
+              "label": "Key KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Conversion rate, average order value, number of intro calls booked"
+            }
+          ]
+        },
+        {
+          "id": "angebot",
+          "titel": "Product & offer",
+          "felder": [
+            {
+              "id": "produkt",
+              "label": "Product",
+              "frage": "What exactly is being sold?"
+            },
+            {
+              "id": "deal",
+              "label": "Offer",
+              "frage": "What are the terms?",
+              "beispiel": "Price, bonuses, limited availability"
+            }
+          ]
+        },
+        {
+          "id": "zielkunde",
+          "titel": "Target customer & their transformation",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Ideal customer (persona)",
+              "frage": "Who is your ideal customer? Demographics, desires, fears.",
+              "beispiel": "“Owner of a trades business, 52, who finally wants a predictable flow of new jobs through the website.”"
+            },
+            {
+              "id": "vorher",
+              "label": "Problem (before)",
+              "frage": "What urgent problem, frustration or uncertainty does your customer have?",
+              "beispiel": "“I don't know where to start to win customers online.”"
+            },
+            {
+              "id": "nachher",
+              "label": "Vision (after)",
+              "frage": "What result and what change do you promise? How does the customer feel after working with you?",
+              "beispiel": "“A full order book, predictable inquiries, financial security.”"
+            },
+            {
+              "id": "usp",
+              "label": "Unique selling proposition (USP)",
+              "frage": "Why should people buy from you and not somewhere else?"
+            }
+          ]
+        },
+        {
+          "id": "hook",
+          "titel": "Introduction: problem & hook",
+          "felder": [
+            {
+              "id": "hook",
+              "label": "Hook (attention)",
+              "frage": "Which relatable scene or question grabs the visitor in the first three seconds?",
+              "beispiel": "“Sound familiar? You have deep expertise, but your website is just a digital business card.”"
+            },
+            {
+              "id": "verschaerfung",
+              "label": "Agitating the problem",
+              "frage": "Which typical, frustrating experiences do you list to show “I understand you”?",
+              "beispiel": "“You post regularly, but you get likes instead of inquiries …”"
+            }
+          ]
+        },
+        {
+          "id": "idee",
+          "titel": "The big idea & the aha moment",
+          "felder": [
+            {
+              "id": "kontraer",
+              "label": "Contrarian perspective",
+              "frage": "Which common misconception in your industry do you expose?",
+              "beispiel": "“More content is not the answer. The right content is.”"
+            },
+            {
+              "id": "aha",
+              "label": "Your discovery",
+              "frage": "Which story or insight led to your method?",
+              "beispiel": "“When I started out myself, I realized that …”"
+            }
+          ]
+        },
+        {
+          "id": "loesung",
+          "titel": "Solution: presenting the offer",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Offer name",
+              "frage": "What is your solution called?",
+              "beispiel": "“The Visibility Program”"
+            },
+            {
+              "id": "modul-1",
+              "label": "Module/package 1",
+              "frage": "Name and description",
+              "beispiel": "Module 1: Find clear positioning"
+            },
+            {
+              "id": "modul-2",
+              "label": "Module/package 2",
+              "frage": "Name and description",
+              "beispiel": "Module 2: Your website as a customer magnet"
+            },
+            {
+              "id": "modul-3",
+              "label": "Module/package 3",
+              "frage": "Name and description",
+              "beispiel": "Module 3: Content that sells"
+            }
+          ]
+        },
+        {
+          "id": "social-proof",
+          "titel": "Social proof",
+          "felder": [
+            {
+              "id": "testimonial-1",
+              "label": "Testimonial 1",
+              "frage": "A customer quote that highlights a concrete result or feeling.",
+              "beispiel": "“After three months we had a clear roadmap and our first three major contracts.”"
+            },
+            {
+              "id": "testimonial-2",
+              "label": "Testimonial 2",
+              "frage": "A quote from another customer that highlights a different aspect.",
+              "beispiel": "The personal support, the speed, the community"
+            },
+            {
+              "id": "belege",
+              "label": "Further proof",
+              "frage": "Which case studies, client logos, certificates or figures do you have?"
+            }
+          ]
+        },
+        {
+          "id": "methode",
+          "titel": "The method in detail",
+          "felder": [
+            {
+              "id": "merkmal-1",
+              "label": "Feature 1",
+              "frage": "What is the concrete benefit for the customer? Before → after.",
+              "beispiel": "Weekly live calls: struggling alone → a direct line and clear feedback"
+            },
+            {
+              "id": "merkmal-2",
+              "label": "Feature 2",
+              "frage": "What is the concrete benefit for the customer? Before → after.",
+              "beispiel": "Templates & checklists: overwhelm → step-by-step implementation"
+            },
+            {
+              "id": "merkmal-3",
+              "label": "Feature 3",
+              "frage": "What is the concrete benefit for the customer? Before → after.",
+              "beispiel": "Peer group: isolation → exchange with like-minded people"
+            }
+          ]
+        },
+        {
+          "id": "faq",
+          "titel": "Objections & FAQ",
+          "felder": [
+            {
+              "id": "einwaende",
+              "label": "FAQ section",
+              "frage": "Which objections or questions do you answer up front in an FAQ section?"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & keywords",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Primary keyword",
+              "frage": "Which keyword has the highest purchase intent?",
+              "beispiel": "“buy [product]”"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Secondary keywords",
+              "frage": "Which related terms belong with it?",
+              "beispiel": "Brand name, product variants, “reviews”, “test”"
+            },
+            {
+              "id": "suchintention",
+              "label": "Search intent",
+              "frage": "The user usually wants to buy or is comparing providers. How does the page make sure it leads to the purchase?"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "abschluss",
+          "titel": "Close & call to action",
+          "felder": [
+            {
+              "id": "wertversprechen",
+              "label": "Value proposition",
+              "frage": "Which core benefit do you repeat at the end?",
+              "beispiel": "“The fastest way to more visibility and paying customers.”"
+            },
+            {
+              "id": "cta",
+              "label": "Final call to action",
+              "frage": "What is the clear call to action?",
+              "beispiel": "“Book your free strategy call now.”"
+            }
+          ]
+        },
+        {
+          "id": "design-tracking",
+          "titel": "Design & tracking",
+          "felder": [
+            {
+              "id": "visuell",
+              "label": "Visual requirements",
+              "frage": "Which product images, videos or style guidelines are there?"
+            },
+            {
+              "id": "tracking",
+              "label": "Tracking",
+              "frage": "Which conversions need to be tracked?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "solution-page",
+      "name": "B2B solution page",
+      "kategorie": "verkauf",
+      "icon": "building",
+      "titel": "Brief: B2B solution page for “[Product/Service]”",
+      "beschreibung": "For solution pages in B2B sales with several decision-makers (buying committee).",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Business goals & success metrics",
+          "felder": [
+            {
+              "id": "konversionsziel",
+              "label": "Primary conversion goal",
+              "frage": "What action should the visitor take?",
+              "beispiel": "Request a demo, schedule a callback, download a white paper"
+            },
+            {
+              "id": "kpis",
+              "label": "Measurable KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Qualified leads per month, pipeline value"
+            }
+          ]
+        },
+        {
+          "id": "buying-center",
+          "titel": "Buying center & audiences",
+          "felder": [
+            {
+              "id": "wirtschaftlich",
+              "label": "Economic decision-makers",
+              "frage": "Who approves the budget, and what matters to this person?",
+              "beispiel": "Management, procurement: cost, risk, ROI"
+            },
+            {
+              "id": "technisch",
+              "label": "Technical decision-makers",
+              "frage": "Who evaluates the solution technically, and what does this person look for?",
+              "beispiel": "Head of IT: integration, security, maintenance"
+            },
+            {
+              "id": "anwender",
+              "label": "End users",
+              "frage": "Who works with the solution every day, and what makes their work easier?"
+            }
+          ]
+        },
+        {
+          "id": "problem",
+          "titel": "Status quo & problem statement",
+          "felder": [
+            {
+              "id": "pain-point",
+              "label": "Market problem",
+              "frage": "What problem do companies have today without your solution?"
+            },
+            {
+              "id": "risiko",
+              "label": "Cost of inaction",
+              "frage": "What does it cost if the company changes nothing?"
+            }
+          ]
+        },
+        {
+          "id": "ansatz",
+          "titel": "Strategic approach",
+          "felder": [
+            {
+              "id": "value-proposition",
+              "label": "Core value proposition",
+              "frage": "What is the central benefit of your solution, in one sentence?"
+            },
+            {
+              "id": "differenzierung",
+              "label": "Differentiation",
+              "frage": "What clearly sets you apart from the competition?"
+            }
+          ]
+        },
+        {
+          "id": "produkt",
+          "titel": "Product & technology",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Solution name",
+              "frage": "What is the solution called?"
+            },
+            {
+              "id": "feature",
+              "label": "Core features",
+              "frage": "What are its core technical features?"
+            },
+            {
+              "id": "benefit",
+              "label": "Business benefit",
+              "frage": "What business benefit does each feature deliver?"
+            },
+            {
+              "id": "integration",
+              "label": "Integration",
+              "frage": "How does the solution fit into existing systems?"
+            }
+          ]
+        },
+        {
+          "id": "trust",
+          "titel": "Trust & validation",
+          "felder": [
+            {
+              "id": "cases",
+              "label": "Case studies / client logos",
+              "frage": "Which references and results can you show?"
+            },
+            {
+              "id": "zertifikate",
+              "label": "Certifications",
+              "frage": "Which certificates, standards or awards do you have?",
+              "beispiel": "ISO 27001, GDPR compliance"
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "cta",
+          "titel": "Call to action & next steps",
+          "felder": [
+            {
+              "id": "hard-cta",
+              "label": "Primary CTA",
+              "frage": "Which committed action is the goal?",
+              "beispiel": "“Schedule a demo”"
+            },
+            {
+              "id": "soft-cta",
+              "label": "Soft CTA / risk reversal",
+              "frage": "What low-commitment offer is there for visitors who are not ready yet?",
+              "beispiel": "Free trial, money-back guarantee, checklist"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "produktbeschreibung",
+      "name": "Product description",
+      "kategorie": "verkauf",
+      "icon": "cart",
+      "titel": "Brief: Product description for “[Product name]”",
+      "beschreibung": "For product pages in an online store or for digital products. With a narrative part and a scannable part.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website",
+        "V2-V4"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Goal & KPIs",
+          "felder": [
+            {
+              "id": "hauptziel",
+              "label": "Main goal of the page",
+              "frage": "What is the most important action a visitor should take?",
+              "beispiel": "Add to cart, buy, request a sample"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Conversion rate, add-to-cart rate, sales"
+            }
+          ]
+        },
+        {
+          "id": "basis",
+          "titel": "Basic product information",
+          "felder": [
+            {
+              "id": "name",
+              "label": "Product name",
+              "frage": "What is the exact name?"
+            },
+            {
+              "id": "sku",
+              "label": "Item number (SKU)",
+              "frage": "What is the product's item number?"
+            },
+            {
+              "id": "technik",
+              "label": "Technical specifications",
+              "frage": "Which dimensions, materials or specifications matter?"
+            }
+          ]
+        },
+        {
+          "id": "kunde",
+          "titel": "Audience & benefits",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Buyer persona",
+              "frage": "Who is this product ideal for? What problem does it solve for this person?"
+            },
+            {
+              "id": "transformation",
+              "label": "Main benefit",
+              "frage": "What is the most important emotional or practical benefit? Not the feature, but the benefit.",
+              "beispiel": "“Finally stay dry all through the fall” instead of “membrane with a 20,000 mm waterproof rating”"
+            }
+          ]
+        },
+        {
+          "id": "story",
+          "titel": "The core story (narrative part)",
+          "felder": [
+            {
+              "id": "hook",
+              "label": "Opening hook",
+              "frage": "How do you spark interest right away by addressing a familiar problem or desire?"
+            },
+            {
+              "id": "fliesstext",
+              "label": "Body copy",
+              "frage": "Which short story shows the three to five main benefits in a use case? (about 2–3 paragraphs)"
+            }
+          ]
+        },
+        {
+          "id": "merkmale",
+          "titel": "Features & benefits (scannable part)",
+          "felder": [
+            {
+              "id": "bullets",
+              "label": "Bullet points (3–5)",
+              "frage": "Which three to five key features do you sum up? Turn each feature into a clear benefit.",
+              "beispiel": "“Breathable membrane → you stay dry even going uphill”"
+            }
+          ]
+        },
+        {
+          "id": "seo",
+          "titel": "SEO & search intent",
+          "felder": [
+            {
+              "id": "hauptkeyword",
+              "label": "Primary keyword",
+              "frage": "What do customers search for?",
+              "beispiel": "“waterproof running jacket men”"
+            },
+            {
+              "id": "nebenkeywords",
+              "label": "Secondary keywords",
+              "frage": "Which synonyms, related terms or item numbers belong with it?"
+            },
+            {
+              "id": "suchintention",
+              "label": "Search intent",
+              "frage": "Is the user still comparing, or do they already have clear purchase intent? The text must reflect that."
+            }
+          ]
+        },
+        {
+          "ref": "ki-sichtbarkeit"
+        },
+        {
+          "id": "medien",
+          "titel": "Visual elements & tone",
+          "felder": [
+            {
+              "id": "bilder",
+              "label": "Images/videos",
+              "frage": "Which visual media are needed?",
+              "beispiel": "Product photos, mockups, product-in-use video, trailer"
+            },
+            {
+              "id": "markenstimme",
+              "label": "Brand voice",
+              "frage": "What is the tone?",
+              "beispiel": "Technical and precise, luxurious and emotional, young and cheeky, clear and structured"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "email-pitch",
+      "name": "Email sales sequence",
+      "kategorie": "email",
+      "icon": "mail",
+      "titel": "Brief: Email pitch sequence for “[Offer]”",
+      "beschreibung": "Three emails from warm-up to close, for example for a product launch.",
+      "quellen": [
+        "coaching",
+        "V2-V4",
+        "tl-campus"
+      ],
+      "abschnitte": [
+        {
+          "id": "strategie",
+          "titel": "Strategy & goal",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Sequence goal",
+              "frage": "What is the main goal?",
+              "beispiel": "Selling an online course, booking intro calls"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Open rate, click-through rate, sales"
+            },
+            {
+              "id": "angebot",
+              "label": "Your offer",
+              "frage": "What exactly are you selling? What is the core solution for the customer?"
+            },
+            {
+              "id": "absender",
+              "label": "Sender",
+              "frage": "Who is the sender of the emails?",
+              "beispiel": "[Your name]"
+            }
+          ]
+        },
+        {
+          "id": "zielkunde",
+          "titel": "Target customer & their problems",
+          "felder": [
+            {
+              "id": "persona",
+              "label": "Primary target persona",
+              "frage": "Who are you addressing?"
+            },
+            {
+              "id": "schmerzpunkt",
+              "label": "Biggest pain point",
+              "frage": "Which feeling or problem is at the center?",
+              "beispiel": "Overwhelm, lack of time, no paying customers"
+            },
+            {
+              "id": "transformation",
+              "label": "Desired transformation",
+              "frage": "What feeling or result should the customer have at the end?",
+              "beispiel": "Clarity, a system that works, financial security"
+            }
+          ]
+        },
+        {
+          "id": "email-1",
+          "titel": "Email 1: Warm-up",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Purpose",
+              "frage": "Create problem awareness, spark curiosity."
+            },
+            {
+              "id": "story",
+              "label": "Story element",
+              "frage": "Which personal anecdote or customer scenario introduces the problem?",
+              "beispiel": "“I still remember spending hours on a single proposal …”"
+            },
+            {
+              "id": "cliffhanger",
+              "label": "Cliffhanger",
+              "frage": "How do you make readers curious about the next email?",
+              "beispiel": "“Tomorrow I'll show you the one thing that changed everything for me …”"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Subject line (option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Subject line (option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "id": "email-2",
+          "titel": "Email 2: Pitch & solution",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Purpose",
+              "frage": "Present the solution and build desire."
+            },
+            {
+              "id": "erfolgsgeschichte",
+              "label": "Success story",
+              "frage": "Which success story, for example a customer's, shows that your solution works?"
+            },
+            {
+              "id": "vorteile",
+              "label": "Core benefits",
+              "frage": "What are the three main benefits of your offer?",
+              "beispiel": "Step-by-step guidance, personal feedback, time savings"
+            },
+            {
+              "id": "cta",
+              "label": "Call to action (link)",
+              "frage": "[Link to your offer page]"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Subject line (option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Subject line (option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "id": "email-3",
+          "titel": "Email 3: Urgency & close",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Purpose",
+              "frage": "Create urgency and motivate action."
+            },
+            {
+              "id": "dringlichkeit",
+              "label": "Urgency element",
+              "frage": "What is the reason for the deadline?",
+              "beispiel": "Bonus expires, only five spots available"
+            },
+            {
+              "id": "einwand",
+              "label": "Handling objections",
+              "frage": "Which final objection do you address?",
+              "beispiel": "“Can I manage this alongside my day-to-day work?”"
+            },
+            {
+              "id": "cta",
+              "label": "Final call to action (link)",
+              "frage": "[Link to your offer page]"
+            },
+            {
+              "id": "betreff-1",
+              "label": "Subject line (option 1)",
+              "frage": ""
+            },
+            {
+              "id": "betreff-2",
+              "label": "Subject line (option 2)",
+              "frage": ""
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "email-automation",
+      "name": "Email automation",
+      "kategorie": "email",
+      "icon": "automation",
+      "titel": "Brief: Email sequence for “[Purpose]”",
+      "beschreibung": "For automated flows such as welcome, onboarding or re-engagement.",
+      "quellen": [
+        "tl-campus-website"
+      ],
+      "abschnitte": [
+        {
+          "id": "ziel",
+          "titel": "Sequence goal",
+          "felder": [
+            {
+              "id": "zweck",
+              "label": "Purpose",
+              "frage": "What is the main goal?",
+              "beispiel": "Welcome sequence, onboarding, product launch, re-engagement"
+            },
+            {
+              "id": "kpis",
+              "label": "KPIs",
+              "frage": "How will you measure success?",
+              "beispiel": "Open rate, click-through rate, conversion rate"
+            }
+          ]
+        },
+        {
+          "id": "zielgruppe",
+          "titel": "Audience & trigger",
+          "felder": [
+            {
+              "id": "segment",
+              "label": "Segment",
+              "frage": "Who is the sequence for?"
+            },
+            {
+              "id": "trigger",
+              "label": "Trigger",
+              "frage": "Which action starts the sequence?",
+              "beispiel": "Newsletter sign-up, purchase, extended inactivity"
+            }
+          ]
+        },
+        {
+          "id": "aufbau",
+          "titel": "Sequence structure",
+          "felder": [
+            {
+              "id": "anzahl",
+              "label": "Number of emails",
+              "frage": "How many emails does the sequence include?"
+            },
+            {
+              "id": "timing",
+              "label": "Frequency / timing",
+              "frage": "At what intervals are the emails sent?",
+              "beispiel": "Day 1, day 3, day 5"
+            }
+          ]
+        },
+        {
+          "id": "inhalt",
+          "titel": "Content per email",
+          "felder": [
+            {
+              "id": "email-1",
+              "label": "Email 1",
+              "frage": "Topic and goal",
+              "beispiel": "Welcome and setting expectations"
+            },
+            {
+              "id": "email-2",
+              "label": "Email 2",
+              "frage": "Topic and goal",
+              "beispiel": "Deliver first value"
+            },
+            {
+              "id": "email-weitere",
+              "label": "Further emails",
+              "frage": "Topic and goal of each further email"
+            }
+          ]
+        },
+        {
+          "id": "tonalitaet",
+          "titel": "Tone & sender",
+          "felder": [
+            {
+              "id": "stimme",
+              "label": "Voice",
+              "frage": "What is the tone?",
+              "beispiel": "Personal, formal, humorous"
+            },
+            {
+              "id": "absender",
+              "label": "Sender",
+              "frage": "Who is the sender?",
+              "beispiel": "Person, team, company"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "cold-outreach",
+      "name": "B2B cold outreach by email",
+      "kategorie": "email",
+      "icon": "send",
+      "titel": "Brief: B2B outreach sequence for “[Target industry]”",
+      "beschreibung": "For first contact with companies by email, in three steps.",
+      "quellen": [
+        "v5"
+      ],
+      "abschnitte": [
+        {
+          "id": "strategie",
+          "titel": "Campaign strategy",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Sequence goal",
+              "frage": "What should the sequence achieve?",
+              "beispiel": "First meeting, callback, webinar attendance"
+            },
+            {
+              "id": "accounts",
+              "label": "Target companies",
+              "frage": "Which companies are you targeting? Industry, size, region."
+            },
+            {
+              "id": "persona",
+              "label": "Contact (persona)",
+              "frage": "What role does the recipient have?"
+            }
+          ]
+        },
+        {
+          "id": "relevanz",
+          "titel": "Pain points & relevance",
+          "felder": [
+            {
+              "id": "trigger",
+              "label": "Reason (trigger event)",
+              "frage": "What makes reaching out relevant right now?",
+              "beispiel": "New legislation, funding round, job posting, new location opening"
+            },
+            {
+              "id": "hypothese",
+              "label": "Hypothesis",
+              "frage": "What problem do you suspect the recipient has, and why?"
+            }
+          ]
+        },
+        {
+          "id": "email-1",
+          "titel": "Email 1",
+          "felder": [
+            {
+              "id": "betreff",
+              "label": "Subject line",
+              "frage": "What is the subject line?"
+            },
+            {
+              "id": "hook",
+              "label": "Hook",
+              "frage": "Which opening sentence shows you have done your homework on the recipient?"
+            },
+            {
+              "id": "value",
+              "label": "Added value",
+              "frage": "Which concrete tip or insight do you give without asking for anything in return?"
+            },
+            {
+              "id": "cta",
+              "label": "Call to action",
+              "frage": "Which simple next step do you suggest?"
+            }
+          ]
+        },
+        {
+          "id": "email-2",
+          "titel": "Email 2",
+          "felder": [
+            {
+              "id": "kontext",
+              "label": "Context",
+              "frage": "How do you follow up on the first email?"
+            },
+            {
+              "id": "social-proof",
+              "label": "Social proof",
+              "frage": "Which comparable company have you already helped?"
+            },
+            {
+              "id": "metrik",
+              "label": "Metric",
+              "frage": "Which measurable result can you cite?"
+            },
+            {
+              "id": "cta",
+              "label": "Call to action",
+              "frage": "Which next step do you suggest?"
+            }
+          ]
+        },
+        {
+          "id": "email-3",
+          "titel": "Email 3",
+          "felder": [
+            {
+              "id": "ansatz",
+              "label": "Approach",
+              "frage": "Which different angle do you try one last time?"
+            },
+            {
+              "id": "ressource",
+              "label": "Resource",
+              "frage": "Which helpful resource do you offer to close?",
+              "beispiel": "Checklist, case study, research study"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "website-relaunch",
+      "name": "Website relaunch",
+      "kategorie": "projekt",
+      "icon": "rocket",
+      "titel": "Brief: Website relaunch for “[Company]”",
+      "beschreibung": "Operational and technical brief for a relaunch with an SEO focus.",
+      "quellen": [
+        "coaching",
+        "tl-campus-website"
+      ],
+      "abschnitte": [
+        {
+          "id": "grundlage",
+          "titel": "Strategic foundation & project setup",
+          "felder": [
+            {
+              "id": "warum",
+              "label": "Reason for the relaunch",
+              "frage": "What is the main reason?",
+              "beispiel": "Outdated design, technical issues, poor navigation, rebranding, new offering"
+            },
+            {
+              "id": "ziele",
+              "label": "Measurable project goals",
+              "frage": "Which three to five KPIs define success?",
+              "beispiel": "+20% conversion rate, +30% organic leads, top 5 ranking for the primary keyword"
+            },
+            {
+              "id": "team",
+              "label": "Project team & responsibilities",
+              "frage": "Who is the main contact? Who supplies content, and who owns design and development?"
+            },
+            {
+              "id": "zeitplan",
+              "label": "Timeline & milestones",
+              "frage": "When is go-live planned? What are the milestones?",
+              "beispiel": "Design sign-off, content complete, go-live"
+            }
+          ]
+        },
+        {
+          "id": "content",
+          "titel": "Current-state analysis & content strategy",
+          "felder": [
+            {
+              "id": "inventar",
+              "label": "Content inventory & audit",
+              "frage": "Which pages will be kept (Keep), reworked (Improve) or deleted (Kill)?"
+            },
+            {
+              "id": "keyword-mapping",
+              "label": "Keyword mapping",
+              "frage": "Does every important new page have a primary keyword and a search intent?"
+            },
+            {
+              "id": "metadaten",
+              "label": "SEO metadata",
+              "frage": "How will title tags and meta descriptions be carried over and improved?"
+            },
+            {
+              "id": "erstellung",
+              "label": "Content creation & migration",
+              "frage": "Who revises and creates the content, and by when?"
+            }
+          ]
+        },
+        {
+          "id": "technik",
+          "titel": "Technical SEO & architecture",
+          "felder": [
+            {
+              "id": "urls",
+              "label": "URL structure",
+              "frage": "Will the URL structure change? If so, what does the new one look like?"
+            },
+            {
+              "id": "weiterleitungen",
+              "label": "Redirect plan",
+              "frage": "Is there a complete 301 redirect map (old → new)? Who is responsible for it?"
+            },
+            {
+              "id": "indexierung",
+              "label": "Crawling & indexing",
+              "frage": "How will robots.txt and the XML sitemap be configured? Are there areas that should not be indexed?"
+            },
+            {
+              "id": "performance",
+              "label": "Core Web Vitals & performance",
+              "frage": "Which targets for load time and interactivity (LCP, INP, CLS) are you aiming for?"
+            }
+          ]
+        },
+        {
+          "id": "ux",
+          "titel": "Design, UX & internal linking",
+          "felder": [
+            {
+              "id": "journeys",
+              "label": "Audiences & user journeys",
+              "frage": "Who are the main users, and which tasks should they be able to complete on the site?"
+            },
+            {
+              "id": "mobile",
+              "label": "Mobile first",
+              "frage": "Is the design consistently built and tested for smartphones?"
+            },
+            {
+              "id": "verlinkung",
+              "label": "Internal linking",
+              "frage": "How does the design ensure logical, strong internal linking?",
+              "beispiel": "Breadcrumbs, topic hubs"
+            }
+          ]
+        },
+        {
+          "id": "ki",
+          "titel": "AI visibility",
+          "felder": [
+            {
+              "id": "crawler",
+              "label": "AI crawlers",
+              "frage": "Which AI crawlers may read the site, and is robots.txt set up accordingly?",
+              "beispiel": "GPTBot, ClaudeBot, PerplexityBot, Google-Extended"
+            },
+            {
+              "id": "strukturierte-daten",
+              "label": "Structured data",
+              "frage": "Which schema.org markup will be added?",
+              "beispiel": "Organization, Person, Article, FAQPage, Product"
+            },
+            {
+              "id": "llms-txt",
+              "label": "llms.txt",
+              "frage": "Should an llms.txt file summarize the most important pages for AI assistants?"
+            }
+          ]
+        },
+        {
+          "id": "tracking",
+          "titel": "Tracking, go-live & measuring success",
+          "felder": [
+            {
+              "id": "tools",
+              "label": "Analytics tools",
+              "frage": "Which tools need to be set up?",
+              "beispiel": "Google Analytics 4, Google Search Console, Matomo"
+            },
+            {
+              "id": "konzept",
+              "label": "Tracking plan",
+              "frage": "Which events and conversions need to be tracked?"
+            },
+            {
+              "id": "go-live",
+              "label": "Go-live checklist",
+              "frage": "What happens on launch day?",
+              "beispiel": "Check redirects, verify tracking, request indexing"
+            },
+            {
+              "id": "vergleich",
+              "label": "Before-and-after analysis",
+              "frage": "Which KPIs will be compared before and after the relaunch?"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    },
+    {
+      "id": "ki-video",
+      "name": "AI video script",
+      "kategorie": "medien",
+      "icon": "video",
+      "titel": "Brief: AI video script for “[Video topic]”",
+      "beschreibung": "For videos created with AI video generators. Describes scene, camera and mood precisely enough to use directly as a prompt.",
+      "quellen": [
+        "tl-campus-wp-optim"
+      ],
+      "abschnitte": [
+        {
+          "id": "kernidee",
+          "titel": "Core idea & goal",
+          "felder": [
+            {
+              "id": "ziel",
+              "label": "Video goal",
+              "frage": "What is the main goal of the video?",
+              "beispiel": "Draw attention to a new offer, explain a concept"
+            },
+            {
+              "id": "kernbotschaft",
+              "label": "Key message",
+              "frage": "What one message should stick?"
+            },
+            {
+              "id": "emotion",
+              "label": "Desired emotion / mood",
+              "frage": "What feeling should the video evoke?",
+              "beispiel": "Trust, excitement, curiosity, calm"
+            }
+          ]
+        },
+        {
+          "id": "szene",
+          "titel": "The scene in detail (who, what, where, how?)",
+          "felder": [
+            {
+              "id": "wer",
+              "label": "Characters (who?)",
+              "frage": "Describe the person or people precisely.",
+              "beispiel": "“A female consultant in her mid-40s with a warm, trustworthy presence, in professional yet approachable business casual.”"
+            },
+            {
+              "id": "was",
+              "label": "Action (what?)",
+              "frage": "What happens in the scene?",
+              "beispiel": "“She sits at a tidy wooden desk and speaks calmly into the camera, as if having a personal conversation.”"
+            },
+            {
+              "id": "wo",
+              "label": "Location / setting (where?)",
+              "frage": "Describe the setting.",
+              "beispiel": "“A bright office with a large plant in the background. Soft morning light falls through the window.”"
+            },
+            {
+              "id": "wie",
+              "label": "Visual style & lighting (how?)",
+              "frage": "Describe the look.",
+              "beispiel": "“Warm, natural colors, soft light, a calm and focused atmosphere.”"
+            }
+          ]
+        },
+        {
+          "id": "kamera",
+          "titel": "Camera work & direction",
+          "felder": [
+            {
+              "id": "eroeffnung",
+              "label": "Opening scene",
+              "frage": "How does the scene begin?",
+              "beispiel": "“Wide shot of the room, the camera slowly moves toward the person at the desk (dolly in).”"
+            },
+            {
+              "id": "haupteinstellung",
+              "label": "Main shot",
+              "frage": "What is the most important camera shot?",
+              "beispiel": "“Medium shot, from the waist up.”"
+            },
+            {
+              "id": "bewegungen",
+              "label": "Camera movements",
+              "frage": "Are there specific movements?",
+              "beispiel": "“At second 15, a slow zoom onto the face”, “Pan to a whiteboard with a sketch”"
+            },
+            {
+              "id": "schlussbild",
+              "label": "Key image / final shot",
+              "frage": "Which image should stay with the viewer?",
+              "beispiel": "“Close-up of a friendly, confident smile.”"
+            }
+          ]
+        },
+        {
+          "id": "details",
+          "titel": "Emotional details & nuances",
+          "felder": [
+            {
+              "id": "mimik",
+              "label": "Facial expressions & gestures",
+              "frage": "Which subtle details should the characters show?",
+              "beispiel": "“Calm gestures with open hands”, “An understanding nod”"
+            },
+            {
+              "id": "atmosphaere",
+              "label": "Atmospheric details",
+              "frage": "Which elements reinforce the mood?",
+              "beispiel": "“Steam rising from a coffee cup”, “Blurred bookshelves in the background”"
+            },
+            {
+              "id": "ton",
+              "label": "Audio & sound",
+              "frage": "What are the audio requirements?",
+              "beispiel": "“No music, just the clear voice.”"
+            }
+          ]
+        },
+        {
+          "ref": "organisation"
+        }
+      ]
+    }
+  ],
+  "ki-voranalyse": {
+    "hinweis": "Optional AI step from v5 and the coaching variant. Will run through a Cloudflare Worker in future (server-side key, fixed prompt, rate limit). The inputs below prefill the templates.",
+    "felder": [
+      {
+        "id": "url",
+        "label": "Company website (URL)",
+        "beispiel": "https://your-company.com"
+      },
+      {
+        "id": "thema",
+        "label": "Topic focus",
+        "beispiel": "AI-powered process automation"
+      },
+      {
+        "id": "keyword",
+        "label": "Focus keyword",
+        "beispiel": "predictive maintenance solutions"
+      },
+      {
+        "id": "zielgruppe",
+        "label": "Audience / buying center",
+        "beispiel": "IT leadership and senior management in mechanical engineering"
+      },
+      {
+        "id": "ziel",
+        "label": "Business goal",
+        "beispiel": "Qualified demo requests"
+      },
+      {
+        "id": "usp",
+        "label": "Key benefits / USPs"
+      },
+      {
+        "id": "tonalitaet",
+        "label": "Tone",
+        "optionen": [
+          "Confident & professional",
+          "Executive summary style (C-level)",
+          "Purely technical / documentary"
+        ]
+      }
+    ]
+  }
+}
