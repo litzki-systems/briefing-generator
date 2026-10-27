@@ -1,5 +1,5 @@
 /*
- * Briefing-Generator · thorsten-litzki.de
+ * Briefing-Generator · litzki-systems.com
  * Statisch, ohne externe Abhängigkeiten. Alle Eingaben bleiben im Browser:
  * kein Server, kein Speicher, keine Cookies.
  * Daten: /assets/data/briefing-vorlagen.json (DE), /assets/data/briefing-templates.en.json (EN)
@@ -18,7 +18,7 @@
   var T = {
     de: {
       data: '/assets/data/briefing-vorlagen.json',
-      url: 'thorsten-litzki.de/briefing-aufbau-erstellen',
+      url: 'litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen',
       titleLabel: 'Titel des Briefings',
       examplePrefix: 'z. B. ',
       status: function (f, t) { return f + ' von ' + t + ' Feldern ausgefüllt'; },
@@ -41,7 +41,7 @@
     },
     en: {
       data: '/assets/data/briefing-templates.en.json',
-      url: 'thorsten-litzki.de/en/blog/creating-a-briefing-structure',
+      url: 'litzki-systems.com/tools/how-to-write-a-brief',
       titleLabel: 'Brief title',
       examplePrefix: 'e.g. ',
       status: function (f, t) { return f + ' of ' + t + ' fields filled in'; },

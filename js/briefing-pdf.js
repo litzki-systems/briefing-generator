@@ -61,11 +61,11 @@
     de: { tool: 'BRIEFING-GENERATOR', author: 'Briefing-Generator', created: 'ERSTELLT', filled: 'AUSGEFÜLLT', approval: 'FREIGABE', lang: 'de-DE',
       made: 'Erstellt mit dem kostenlosen Briefing-Generator: ',
       local: 'Alle Eingaben wurden nur im Browser verarbeitet. Leere Felder können direkt in diesem PDF ausgefüllt werden.',
-      page: function (i, n) { return 'Seite ' + i + ' von ' + n; }, url: 'thorsten-litzki.de/briefing-aufbau-erstellen', field: 'feld_' },
+      page: function (i, n) { return 'Seite ' + i + ' von ' + n; }, url: 'litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen', field: 'feld_' },
     en: { tool: 'BRIEFING GENERATOR', author: 'Briefing Generator', created: 'CREATED', filled: 'FILLED IN', approval: 'SIGN-OFF', lang: 'en-US',
       made: 'Created with the free Briefing Generator: ',
       local: 'All input was processed in the browser only. Empty fields can be filled in directly in this PDF.',
-      page: function (i, n) { return 'Page ' + i + ' of ' + n; }, url: 'thorsten-litzki.de/en/blog/creating-a-briefing-structure', field: 'field_' }
+      page: function (i, n) { return 'Page ' + i + ' of ' + n; }, url: 'litzki-systems.com/tools/how-to-write-a-brief', field: 'field_' }
   };
 
   function build(model, info) {

@@ -6,7 +6,7 @@
 
 A free, static briefing generator with 12 templates for content, sales, email, website relaunches and AI video. You pick a template, fill in what you already know, and export the brief as a fillable PDF, as Markdown, or print it. Empty fields stay input fields in the PDF, so the brief doubles as a questionnaire your agency or writer can complete on screen.
 
-Live: [thorsten-litzki.de/en/blog/creating-a-briefing-structure](https://thorsten-litzki.de/en/blog/creating-a-briefing-structure/#generator) (English) · [thorsten-litzki.de/briefing-aufbau-erstellen](https://thorsten-litzki.de/briefing-aufbau-erstellen/#generator) (German)
+Live: [litzki-systems.com/tools/how-to-write-a-brief](https://litzki-systems.com/tools/how-to-write-a-brief/#generator) (English) · [litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen](https://litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen/#generator) (German)
 
 ## What it does
 
@@ -48,7 +48,7 @@ Optional attributes on `#briefing-generator`:
 | `data-lang` | `de` or `en` | value of `<html lang>` |
 | `data-base` | base path for `js/` and `assets/` | `/` |
 | `data-src` | URL of the template JSON | `assets/data/briefing-vorlagen.json` (de) or `assets/data/briefing-templates.en.json` (en) |
-| `data-url` | address shown in the print and PDF footer | the guide on thorsten-litzki.de |
+| `data-url` | address shown in the print and PDF footer | the guide on litzki-systems.com |
 
 A link like `#template=sales-page` (or `#vorlage=sales-page`) opens a specific template.
 
@@ -90,7 +90,7 @@ Thorsten Litzki · [Litzki Systems](https://litzki-systems.com)
 
 Ein kostenloser, statischer Briefing-Generator mit 12 Vorlagen für Content, Verkauf, E-Mail, Website-Relaunch und KI-Video. Sie wählen eine Vorlage, füllen aus, was Sie schon wissen, und exportieren das Briefing als ausfüllbares PDF, als Markdown oder drucken es. Leere Felder bleiben im PDF Eingabefelder: So wird das Briefing zum Fragebogen, den Agentur oder Texter am Bildschirm ergänzen.
 
-Live: [thorsten-litzki.de/briefing-aufbau-erstellen](https://thorsten-litzki.de/briefing-aufbau-erstellen/#generator) (Deutsch) · [thorsten-litzki.de/en/blog/creating-a-briefing-structure](https://thorsten-litzki.de/en/blog/creating-a-briefing-structure/#generator) (Englisch)
+Live: [litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen](https://litzki-systems.com/de/werkzeuge/briefing-aufbau-erstellen/#generator) (Deutsch) · [litzki-systems.com/tools/how-to-write-a-brief](https://litzki-systems.com/tools/how-to-write-a-brief/#generator) (Englisch)
 
 ## Was er kann
 
